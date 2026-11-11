@@ -32,7 +32,6 @@
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.btnLogOut = new Guna.UI2.WinForms.Guna2Button();
             this.btnInvoices = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
             this.btnMedications = new Guna.UI2.WinForms.Guna2Button();
             this.btnDentists = new Guna.UI2.WinForms.Guna2Button();
             this.btnPatients = new Guna.UI2.WinForms.Guna2Button();
@@ -62,7 +61,6 @@
             this.guna2CustomGradientPanel1.BorderRadius = 35;
             this.guna2CustomGradientPanel1.Controls.Add(this.btnLogOut);
             this.guna2CustomGradientPanel1.Controls.Add(this.btnInvoices);
-            this.guna2CustomGradientPanel1.Controls.Add(this.guna2Button6);
             this.guna2CustomGradientPanel1.Controls.Add(this.btnMedications);
             this.guna2CustomGradientPanel1.Controls.Add(this.btnDentists);
             this.guna2CustomGradientPanel1.Controls.Add(this.btnPatients);
@@ -89,7 +87,7 @@
             this.btnLogOut.Image = ((System.Drawing.Image)(resources.GetObject("btnLogOut.Image")));
             this.btnLogOut.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnLogOut.ImageSize = new System.Drawing.Size(35, 35);
-            this.btnLogOut.Location = new System.Drawing.Point(13, 609);
+            this.btnLogOut.Location = new System.Drawing.Point(13, 565);
             this.btnLogOut.Name = "btnLogOut";
             this.btnLogOut.PressedColor = System.Drawing.Color.Teal;
             this.btnLogOut.Size = new System.Drawing.Size(248, 55);
@@ -113,32 +111,12 @@
             this.btnInvoices.Image = ((System.Drawing.Image)(resources.GetObject("btnInvoices.Image")));
             this.btnInvoices.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnInvoices.ImageSize = new System.Drawing.Size(35, 35);
-            this.btnInvoices.Location = new System.Drawing.Point(13, 527);
+            this.btnInvoices.Location = new System.Drawing.Point(13, 469);
             this.btnInvoices.Name = "btnInvoices";
             this.btnInvoices.PressedColor = System.Drawing.Color.Teal;
             this.btnInvoices.Size = new System.Drawing.Size(248, 55);
             this.btnInvoices.TabIndex = 6;
             this.btnInvoices.Text = "Invoices";
-            // 
-            // guna2Button6
-            // 
-            this.guna2Button6.BackColor = System.Drawing.Color.White;
-            this.guna2Button6.BorderRadius = 15;
-            this.guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button6.FillColor = System.Drawing.Color.White;
-            this.guna2Button6.FocusedColor = System.Drawing.Color.Teal;
-            this.guna2Button6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button6.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button6.HoverState.FillColor = System.Drawing.Color.Teal;
-            this.guna2Button6.Location = new System.Drawing.Point(13, 443);
-            this.guna2Button6.Name = "guna2Button6";
-            this.guna2Button6.PressedColor = System.Drawing.Color.Teal;
-            this.guna2Button6.Size = new System.Drawing.Size(248, 55);
-            this.guna2Button6.TabIndex = 5;
-            this.guna2Button6.Text = "guna2Button6";
             // 
             // btnMedications
             // 
@@ -156,7 +134,7 @@
             this.btnMedications.Image = ((System.Drawing.Image)(resources.GetObject("btnMedications.Image")));
             this.btnMedications.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnMedications.ImageSize = new System.Drawing.Size(35, 35);
-            this.btnMedications.Location = new System.Drawing.Point(13, 358);
+            this.btnMedications.Location = new System.Drawing.Point(13, 378);
             this.btnMedications.Name = "btnMedications";
             this.btnMedications.PressedColor = System.Drawing.Color.Teal;
             this.btnMedications.Size = new System.Drawing.Size(248, 55);
@@ -179,7 +157,7 @@
             this.btnDentists.Image = ((System.Drawing.Image)(resources.GetObject("btnDentists.Image")));
             this.btnDentists.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnDentists.ImageSize = new System.Drawing.Size(35, 35);
-            this.btnDentists.Location = new System.Drawing.Point(13, 260);
+            this.btnDentists.Location = new System.Drawing.Point(13, 282);
             this.btnDentists.Name = "btnDentists";
             this.btnDentists.PressedColor = System.Drawing.Color.Teal;
             this.btnDentists.Size = new System.Drawing.Size(248, 55);
@@ -203,7 +181,7 @@
             this.btnPatients.Image = ((System.Drawing.Image)(resources.GetObject("btnPatients.Image")));
             this.btnPatients.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnPatients.ImageSize = new System.Drawing.Size(35, 35);
-            this.btnPatients.Location = new System.Drawing.Point(13, 180);
+            this.btnPatients.Location = new System.Drawing.Point(13, 197);
             this.btnPatients.Name = "btnPatients";
             this.btnPatients.PressedColor = System.Drawing.Color.Teal;
             this.btnPatients.Size = new System.Drawing.Size(248, 55);
@@ -227,7 +205,7 @@
             this.btnVisits.Image = ((System.Drawing.Image)(resources.GetObject("btnVisits.Image")));
             this.btnVisits.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnVisits.ImageSize = new System.Drawing.Size(35, 35);
-            this.btnVisits.Location = new System.Drawing.Point(13, 104);
+            this.btnVisits.Location = new System.Drawing.Point(13, 117);
             this.btnVisits.Name = "btnVisits";
             this.btnVisits.PressedColor = System.Drawing.Color.Teal;
             this.btnVisits.Size = new System.Drawing.Size(248, 55);
@@ -250,7 +228,7 @@
             this.btnAppointments.Image = ((System.Drawing.Image)(resources.GetObject("btnAppointments.Image")));
             this.btnAppointments.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnAppointments.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnAppointments.Location = new System.Drawing.Point(13, 30);
+            this.btnAppointments.Location = new System.Drawing.Point(13, 39);
             this.btnAppointments.Name = "btnAppointments";
             this.btnAppointments.PressedColor = System.Drawing.Color.Teal;
             this.btnAppointments.Size = new System.Drawing.Size(248, 55);
@@ -458,7 +436,6 @@
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel3;
         private Guna.UI2.WinForms.Guna2Button btnLogOut;
         private Guna.UI2.WinForms.Guna2Button btnInvoices;
-        private Guna.UI2.WinForms.Guna2Button guna2Button6;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;

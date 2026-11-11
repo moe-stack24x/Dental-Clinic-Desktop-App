@@ -68,6 +68,12 @@
     <Compile Include="Appointments\frmManageAppointments.Designer.cs">
       <DependentUpon>frmManageAppointments.cs</DependentUpon>
     </Compile>
+    <Compile Include="Dentists\controls\ctrlDentistCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dentists\controls\ctrlDentistCard.Designer.cs">
+      <DependentUpon>ctrlDentistCard.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dentists\controls\ctrlDentistInfo.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -107,6 +113,12 @@
     <Compile Include="Login\frmLogin.Designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="Patients\Controls\ctrlPatientcard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Patients\Controls\ctrlPatientcard.Designer.cs">
+      <DependentUpon>ctrlPatientcard.cs</DependentUpon>
+    </Compile>
     <Compile Include="Patients\Controls\ctrlPatientInfo.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -130,6 +142,12 @@
     </Compile>
     <Compile Include="Patients\frmManagePatients.Designer.cs">
       <DependentUpon>frmManagePatients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Patients\frmPatientCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Patients\frmPatientCard.Designer.cs">
+      <DependentUpon>frmPatientCard.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -169,6 +187,9 @@
     <EmbeddedResource Include="Appointments\frmManageAppointments.resx">
       <DependentUpon>frmManageAppointments.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Dentists\controls\ctrlDentistCard.resx">
+      <DependentUpon>ctrlDentistCard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dentists\controls\ctrlDentistInfo.resx">
       <DependentUpon>ctrlDentistInfo.cs</DependentUpon>
     </EmbeddedResource>
@@ -187,6 +208,9 @@
     <EmbeddedResource Include="Login\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Patients\Controls\ctrlPatientcard.resx">
+      <DependentUpon>ctrlPatientcard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Patients\Controls\ctrlPatientInfo.resx">
       <DependentUpon>ctrlPatientInfo.cs</DependentUpon>
     </EmbeddedResource>
@@ -198,6 +222,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Patients\frmManagePatients.resx">
       <DependentUpon>frmManagePatients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patients\frmPatientCard.resx">
+      <DependentUpon>frmPatientCard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -426,6 +453,66 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\diskette.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\appointment %284%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\id %281%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\id %281%293.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person_man2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sort_by_email.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sort_by_email %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\address_book.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person_boy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person_boy %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person_boy %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\administrator_female.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\administrator_female1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doctor %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doctor %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doctor %287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tuition.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tuition %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
