@@ -36,7 +36,7 @@
             this.lblRecordes = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.cbGenderFillter = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.cbAppointmentStatus = new Guna.UI2.WinForms.Guna2ComboBox();
             this.txtFillterBy = new Guna.UI2.WinForms.Guna2TextBox();
             this.cbFilterBy = new Guna.UI2.WinForms.Guna2ComboBox();
             this.btnAddPatients = new Guna.UI2.WinForms.Guna2Button();
@@ -106,7 +106,7 @@
             this.guna2CustomGradientPanel1.BorderRadius = 13;
             this.guna2CustomGradientPanel1.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
             this.guna2CustomGradientPanel1.BorderThickness = 2;
-            this.guna2CustomGradientPanel1.Controls.Add(this.cbGenderFillter);
+            this.guna2CustomGradientPanel1.Controls.Add(this.cbAppointmentStatus);
             this.guna2CustomGradientPanel1.Controls.Add(this.txtFillterBy);
             this.guna2CustomGradientPanel1.Controls.Add(this.cbFilterBy);
             this.guna2CustomGradientPanel1.Controls.Add(this.guna2HtmlLabel2);
@@ -116,26 +116,26 @@
             this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(1235, 91);
             this.guna2CustomGradientPanel1.TabIndex = 7;
             // 
-            // cbGenderFillter
+            // cbAppointmentStatus
             // 
-            this.cbGenderFillter.BackColor = System.Drawing.Color.Transparent;
-            this.cbGenderFillter.BorderRadius = 15;
-            this.cbGenderFillter.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cbGenderFillter.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbGenderFillter.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cbGenderFillter.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cbGenderFillter.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.cbGenderFillter.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.cbGenderFillter.ItemHeight = 30;
-            this.cbGenderFillter.Items.AddRange(new object[] {
+            this.cbAppointmentStatus.BackColor = System.Drawing.Color.Transparent;
+            this.cbAppointmentStatus.BorderRadius = 15;
+            this.cbAppointmentStatus.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cbAppointmentStatus.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbAppointmentStatus.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbAppointmentStatus.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbAppointmentStatus.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cbAppointmentStatus.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.cbAppointmentStatus.ItemHeight = 30;
+            this.cbAppointmentStatus.Items.AddRange(new object[] {
             "All",
             "Male",
             "Female"});
-            this.cbGenderFillter.Location = new System.Drawing.Point(388, 27);
-            this.cbGenderFillter.Name = "cbGenderFillter";
-            this.cbGenderFillter.Size = new System.Drawing.Size(186, 36);
-            this.cbGenderFillter.TabIndex = 8;
-            this.cbGenderFillter.SelectedIndexChanged += new System.EventHandler(this.cbGenderFillter_SelectedIndexChanged_1);
+            this.cbAppointmentStatus.Location = new System.Drawing.Point(388, 27);
+            this.cbAppointmentStatus.Name = "cbAppointmentStatus";
+            this.cbAppointmentStatus.Size = new System.Drawing.Size(186, 36);
+            this.cbAppointmentStatus.TabIndex = 8;
+            this.cbAppointmentStatus.SelectedIndexChanged += new System.EventHandler(this.cbGenderFillter_SelectedIndexChanged_1);
             // 
             // txtFillterBy
             // 
@@ -172,7 +172,7 @@
             this.cbFilterBy.ItemHeight = 30;
             this.cbFilterBy.Items.AddRange(new object[] {
             "None",
-            "Dentist ID",
+            "Patient ID",
             "First Name",
             "Last Name",
             "Phone Number",
@@ -332,7 +332,7 @@
             this.guna2ShadowPanel1.Controls.Add(this.dgvAllPatients);
             this.guna2ShadowPanel1.Controls.Add(this.guna2CustomGradientPanel1);
             this.guna2ShadowPanel1.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel1.Location = new System.Drawing.Point(14, 180);
+            this.guna2ShadowPanel1.Location = new System.Drawing.Point(5, 91);
             this.guna2ShadowPanel1.Name = "guna2ShadowPanel1";
             this.guna2ShadowPanel1.Radius = 10;
             this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -368,19 +368,18 @@
             this.guna2CustomGradientPanel2.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2CustomGradientPanel2.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2CustomGradientPanel2.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.guna2CustomGradientPanel2.Location = new System.Drawing.Point(362, 38);
+            this.guna2CustomGradientPanel2.Location = new System.Drawing.Point(12, 3);
             this.guna2CustomGradientPanel2.Name = "guna2CustomGradientPanel2";
-            this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(675, 86);
+            this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(1269, 82);
             this.guna2CustomGradientPanel2.TabIndex = 8;
             // 
             // guna2HtmlLabel3
             // 
             this.guna2HtmlLabel3.AutoSize = false;
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2HtmlLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(0, 0);
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(300, 0);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
             this.guna2HtmlLabel3.Size = new System.Drawing.Size(675, 86);
             this.guna2HtmlLabel3.TabIndex = 0;
@@ -398,7 +397,7 @@
             this.guna2GradientPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2GradientPanel1.Location = new System.Drawing.Point(0, 0);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(1293, 719);
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(1293, 578);
             this.guna2GradientPanel1.TabIndex = 10;
             // 
             // btnClose
@@ -418,7 +417,7 @@
             this.btnClose.Image = global::DentalClinic_Presentation.Properties.Resources.close__1_;
             this.btnClose.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.btnClose.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnClose.Location = new System.Drawing.Point(1146, 618);
+            this.btnClose.Location = new System.Drawing.Point(1146, 517);
             this.btnClose.Name = "btnClose";
             this.btnClose.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.btnClose.Size = new System.Drawing.Size(135, 52);
@@ -429,10 +428,9 @@
             // 
             // frmManagePatients
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1293, 719);
+            this.ClientSize = new System.Drawing.Size(1293, 578);
             this.Controls.Add(this.guna2GradientPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "frmManagePatients";
@@ -463,7 +461,7 @@
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel4;
         private Guna.UI2.WinForms.Guna2Button btnClose;
         private Guna.UI2.WinForms.Guna2TextBox txtFillterBy;
-        private Guna.UI2.WinForms.Guna2ComboBox cbGenderFillter;
+        private Guna.UI2.WinForms.Guna2ComboBox cbAppointmentStatus;
         private Guna.UI2.WinForms.Guna2ContextMenuStrip cmsPatients;
         private System.Windows.Forms.ToolStripMenuItem showDetailsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem EditToolStripMenuItem;

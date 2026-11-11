@@ -84,7 +84,7 @@ namespace DentalClinic_Presentation.Login
         {
             this.Close();
         }
-        d
+        
      
 
         private void txtUserName_KeyPress(object sender, KeyPressEventArgs e)

@@ -1,4 +1,5 @@
-﻿using DentalClinic_Presentation.Dentists;
+﻿using DentalClinic_Presentation.Appointments;
+using DentalClinic_Presentation.Dentists;
 using DentalClinic_Presentation.Global_Classes;
 using DentalClinic_Presentation.Login;
 using DentalClinic_Presentation.Patients;
@@ -76,6 +77,12 @@ namespace DentalClinic_Presentation
         {
             frmUserInfo frm = new frmUserInfo(clsGlobal.CurrentUser.UserID);
             frm.ShowDialog();
+        }
+
+        private void btnAppointments_Click(object sender, EventArgs e)
+        {
+            frmManageAppointments frm = new frmManageAppointments();
+            LoadForm(frm);
         }
     }
 }

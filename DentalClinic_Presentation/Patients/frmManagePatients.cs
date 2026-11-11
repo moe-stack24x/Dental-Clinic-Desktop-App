@@ -54,10 +54,10 @@ namespace DentalClinic_Presentation.Patients
                 txtFillterBy.Text = "";
                 txtFillterBy.Focus();
             }
-            cbGenderFillter.Visible = (cbFilterBy.Text == "Gender");
+            cbAppointmentStatus.Visible = (cbFilterBy.Text == "Gender");
             if (cbFilterBy.Text == "Gender")
             {
-                cbGenderFillter.SelectedIndex = 0;
+                cbAppointmentStatus.SelectedIndex = 0;
             }
         }
 
@@ -93,7 +93,7 @@ namespace DentalClinic_Presentation.Patients
                 lblRecordes.Text = _dtAllPatients.DefaultView.Count.ToString();
                 return;
             }
-            if (FillterColumn == "PhoneNumber" || FillterColumn == "PatientID")
+            if ( FillterColumn == "PatientID")
                 _dtAllPatients.DefaultView.RowFilter = string.Format("[{0}] = {1}", FillterColumn, txtFillterBy.Text.Trim());
             else
                 _dtAllPatients.DefaultView.RowFilter = string.Format("[{0}] LIKE '{1}%'", FillterColumn, txtFillterBy.Text.Trim());
@@ -105,14 +105,10 @@ namespace DentalClinic_Presentation.Patients
 
         }
 
-        private void cbGenderFillter_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void txtFillterBy_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (cbFilterBy.Text == "Patient ID" || cbFilterBy.Text == "Phone Number")
+            if (cbFilterBy.Text == "Patient ID" )
             {
                 e.Handled = !char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar);
 
@@ -152,8 +148,30 @@ namespace DentalClinic_Presentation.Patients
 
         private void cbGenderFillter_SelectedIndexChanged_1(object sender, EventArgs e)
         {
+            switch (cbAppointmentStatus.Text)
+            {
+                case "All":
+                    _dtAllPatients.DefaultView.RowFilter = "";
+                    break;
 
+                case "Male":
+                    _dtAllPatients.DefaultView.RowFilter = "Gender = 'Male'";
+                    break;
+
+                case "Female":
+                    _dtAllPatients.DefaultView.RowFilter = "Gender = 'Female'";
+                    break;
+
+                case "Unknown":
+                    _dtAllPatients.DefaultView.RowFilter = "Gender = 'Unknown'";
+                    break;
+            }
+
+            lblRecordes.Text = _dtAllPatients.DefaultView.Count.ToString();
         }
-    }
+      
+
 }
+    }
+
 

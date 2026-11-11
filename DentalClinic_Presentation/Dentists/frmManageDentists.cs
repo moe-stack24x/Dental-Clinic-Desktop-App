@@ -78,7 +78,7 @@ namespace DentalClinic_Presentation.Dentists
                 case "First Name":
                     FillterColumn = "FirstName";
                     break;
-                case "Last Name":
+                case "Last Name ":
                     FillterColumn = "LastName";
                     break;
                 case "Specialization":
@@ -171,6 +171,11 @@ namespace DentalClinic_Presentation.Dentists
 
             else
                 MessageBox.Show("Dentist is not deactivated due to data connected to it.", "Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        }
+
+        private void guna2GradientPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
