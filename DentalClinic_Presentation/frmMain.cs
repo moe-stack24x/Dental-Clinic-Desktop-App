@@ -4,6 +4,7 @@ using DentalClinic_Presentation.Global_Classes;
 using DentalClinic_Presentation.Login;
 using DentalClinic_Presentation.Patients;
 using DentalClinic_Presentation.Users;
+using DentalClinic_Presentation.Visits;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -82,6 +83,12 @@ namespace DentalClinic_Presentation
         private void btnAppointments_Click(object sender, EventArgs e)
         {
             frmManageAppointments frm = new frmManageAppointments();
+            LoadForm(frm);
+        }
+
+        private void btnVisits_Click(object sender, EventArgs e)
+        {
+            frmManageVisits frm = new frmManageVisits();
             LoadForm(frm);
         }
     }

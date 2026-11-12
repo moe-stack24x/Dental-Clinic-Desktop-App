@@ -50,8 +50,10 @@
     <Compile Include="clsAppointment.cs" />
     <Compile Include="clsDentist.cs" />
     <Compile Include="clsPatient.cs" />
+    <Compile Include="clsPerformedTreatment.cs" />
     <Compile Include="clsTreatmentType.cs" />
     <Compile Include="clsUser.cs" />
+    <Compile Include="clsVisit.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

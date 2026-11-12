@@ -24,7 +24,8 @@ namespace DentalClinic_Business
         public TimeSpan AppointmentEndTime { get; set; }
         public enAppointmentStatus AppointmentStatus { get; set; }
         public int CreatedByUserID { get; set; }
-
+        public clsPatient PatientInfo { get; set; }
+        public clsDentist DentistInfo { get; set; }
         public string AppointmentStatusText
         {
             get
@@ -45,6 +46,9 @@ namespace DentalClinic_Business
                 }
             }
         }
+      
+
+
         public clsAppointment()
         {
             AppointmentID = -1;
@@ -55,7 +59,8 @@ namespace DentalClinic_Business
             AppointmentEndTime = TimeSpan.Zero;
             AppointmentStatus = enAppointmentStatus.Scheduled;
             CreatedByUserID = -1;
-
+            PatientInfo= new clsPatient();
+            DentistInfo= new clsDentist();
             Mode = enMode.AddNew;
         }
 
@@ -77,7 +82,8 @@ namespace DentalClinic_Business
             this.AppointmentEndTime = AppointmentEndTime;
             this.AppointmentStatus = AppointmentStatus;
             this.CreatedByUserID = CreatedByUserID;
-
+            PatientInfo = clsPatient.FindPatientById(PatientID);
+            DentistInfo = clsDentist.FindDentistById(DentistID);
             Mode = enMode.Update;
         }
 

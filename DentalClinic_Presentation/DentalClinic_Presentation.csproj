@@ -92,6 +92,12 @@
     <Compile Include="Dentists\frmAddUpdateDentist.Designer.cs">
       <DependentUpon>frmAddUpdateDentist.cs</DependentUpon>
     </Compile>
+    <Compile Include="Dentists\frmDentistCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dentists\frmDentistCard.Designer.cs">
+      <DependentUpon>frmDentistCard.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dentists\frmManageDentists.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -181,6 +187,12 @@
     <Compile Include="Users\frmUserInfo.Designer.cs">
       <DependentUpon>frmUserInfo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Visits\frmManageVisits.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visits\frmManageVisits.Designer.cs">
+      <DependentUpon>frmManageVisits.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Appointments\frmAddUpdateAppointment.resx">
       <DependentUpon>frmAddUpdateAppointment.cs</DependentUpon>
     </EmbeddedResource>
@@ -198,6 +210,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Dentists\frmAddUpdateDentist.resx">
       <DependentUpon>frmAddUpdateDentist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dentists\frmDentistCard.resx">
+      <DependentUpon>frmDentistCard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dentists\frmManageDentists.resx">
       <DependentUpon>frmManageDentists.cs</DependentUpon>
@@ -250,6 +265,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Users\frmUserInfo.resx">
       <DependentUpon>frmUserInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visits\frmManageVisits.resx">
+      <DependentUpon>frmManageVisits.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -513,6 +531,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exam1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

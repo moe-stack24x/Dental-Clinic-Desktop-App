@@ -1,5 +1,5 @@
 ﻿using DentalClinic_Business;
-using DentalClinic_Presentation.Dentists.Controls;
+using DentalClinic_Presentation.Dentists.controls;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
