@@ -110,16 +110,16 @@ namespace DentalClinic_Presentation.Visits
             }
         }
 
-      /*  private void EditToolStripMenuItem_Click(object sender, EventArgs e)
+        private void EditToolStripMenuItem_Click(object sender, EventArgs e)
         {
             int VisitID = (int)dgvAllVisits.CurrentRow.Cells[0].Value;
+            clsVisit _visit =clsVisit.Find(VisitID);
 
-            frmAddUpdateVisit frm = new frmAddUpdateVisit(VisitID);
-
+            frmAddUpdateVisit frm = new frmAddUpdateVisit(_visit.AppointmentID, _visit.VisitID);
             frm.ShowDialog();
 
             frmManageVisits_Load(null, null);
-        }*/
+        }
 
         private void cmsVisits_Opening(object sender, System.ComponentModel.CancelEventArgs e)
         {
@@ -129,5 +129,7 @@ namespace DentalClinic_Presentation.Visits
                 return;
             }
         }
+
+        
     }
 }

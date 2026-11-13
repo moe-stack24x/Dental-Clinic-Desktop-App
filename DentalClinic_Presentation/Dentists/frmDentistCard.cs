@@ -37,5 +37,18 @@ namespace DentalClinic_Presentation.Dentists
         {
 
         }
+
+     
+      
+
+        private void ctrlDentistCard1_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ctrlDentistCard1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

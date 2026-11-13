@@ -187,6 +187,12 @@
     <Compile Include="Users\frmUserInfo.Designer.cs">
       <DependentUpon>frmUserInfo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Visits\frmAddUpdateVisit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visits\frmAddUpdateVisit.Designer.cs">
+      <DependentUpon>frmAddUpdateVisit.cs</DependentUpon>
+    </Compile>
     <Compile Include="Visits\frmManageVisits.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -265,6 +271,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Users\frmUserInfo.resx">
       <DependentUpon>frmUserInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visits\frmAddUpdateVisit.resx">
+      <DependentUpon>frmAddUpdateVisit.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Visits\frmManageVisits.resx">
       <DependentUpon>frmManageVisits.cs</DependentUpon>
@@ -537,6 +546,69 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\exam1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exam %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medical_history %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stethoscope.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medical_history %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\appointment %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medical_history %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medical_history %283%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\appointment %287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\appointment %287%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\appointment %288%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\appointment %289%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\appointment %2810%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\appointment %2811%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medical_history %283%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gear %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gear %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gear %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medi-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medi2-removebg-preview %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\patient_boy %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -81,7 +81,7 @@ namespace DentalClinic_Presentation.Dentists.controls
         {
             frmAddUpdateDentist frm = new frmAddUpdateDentist(_DentistID);
             frm.DataBack += Frm_DataBack;
-            frm.Show();
+            frm.ShowDialog();
         }
         public void Frm_DataBack(object sender, int DentistID)
         {

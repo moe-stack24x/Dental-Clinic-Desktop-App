@@ -1,5 +1,6 @@
 ﻿using DentalClinic_Business;
 using DentalClinic_Presentation.Appointments;
+using DentalClinic_Presentation.Visits;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -20,7 +21,7 @@ namespace DentalClinic_Presentation.Appointments
             InitializeComponent();
         }
 
-      
+
 
         private void frmManageAppointments_Load(object sender, EventArgs e)
         {
@@ -29,7 +30,7 @@ namespace DentalClinic_Presentation.Appointments
             dgvAllAppointments.DataSource = _dtAllAppointments;
             lblRecordes.Text = _dtAllAppointments.DefaultView.Count.ToString();
 
-         
+
 
             if (dgvAllAppointments.Rows.Count > 0)
             {
@@ -45,9 +46,9 @@ namespace DentalClinic_Presentation.Appointments
 
             }
         }
-       
 
-  
+
+
 
         private void btnClose_Click(object sender, EventArgs e)
         {
@@ -56,9 +57,9 @@ namespace DentalClinic_Presentation.Appointments
 
         private void cbFilterBy_SelectedIndexChanged(object sender, EventArgs e)
         {
-         
+
             txtFillterBy.Visible = (cbFilterBy.Text != "None" && cbFilterBy.Text != "Status");
-           
+
             if (cbFilterBy.Text != "None" && cbFilterBy.Text != "Status")
             {
                 txtFillterBy.Text = "";
@@ -108,7 +109,7 @@ namespace DentalClinic_Presentation.Appointments
 
 
         }
-       
+
         private void cbStatusFillter_SelectedIndexChanged(object sender, EventArgs e)
         {
             switch (cbAppointmentStatus.Text)
@@ -154,13 +155,13 @@ namespace DentalClinic_Presentation.Appointments
 
         private void EditToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           
-            frmAddUpdateAppointment frm = new frmAddUpdateAppointment((int)dgvAllAppointments.CurrentRow.Cells[0].Value );
+
+            frmAddUpdateAppointment frm = new frmAddUpdateAppointment((int)dgvAllAppointments.CurrentRow.Cells[0].Value);
             frm.ShowDialog();
             frmManageAppointments_Load(null, null);
         }
 
-        
+
 
         private void canselPToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -181,10 +182,30 @@ namespace DentalClinic_Presentation.Appointments
         private void cmsPatients_Opening(object sender, CancelEventArgs e)
         {
             clsAppointment appointemtnt = clsAppointment.FindAppointmentById((int)dgvAllAppointments.CurrentRow.Cells[0].Value);
+
+            //only scheduled appointments can be canceled
             cancellPToolStripMenuItem.Enabled = appointemtnt.AppointmentStatus == clsAppointment.enAppointmentStatus.Scheduled;
 
+            //only scheduled appointments can be edited
             EditToolStripMenuItem.Enabled =
                appointemtnt.AppointmentStatus == clsAppointment.enAppointmentStatus.Scheduled;
+
+            //only scheduled appointments can have visits added to them,
+            AddVisitToolStripMenuItem.Enabled =
+                appointemtnt.AppointmentStatus == clsAppointment.enAppointmentStatus.Scheduled;
         }
+
+        private void AddVisitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            int AppointmentID = (int)dgvAllAppointments.CurrentRow.Cells[0].Value;
+
+            frmAddUpdateVisit frm = new frmAddUpdateVisit(AppointmentID);
+            frm.ShowDialog();
+            frmManageAppointments_Load(null, null);
+        }
+
+
     }
 }
+

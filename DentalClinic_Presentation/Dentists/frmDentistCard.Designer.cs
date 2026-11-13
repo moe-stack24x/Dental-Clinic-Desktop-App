@@ -33,16 +33,17 @@
             // 
             // ctrlDentistCard1
             // 
-            this.ctrlDentistCard1.Location = new System.Drawing.Point(-3, -7);
+            this.ctrlDentistCard1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ctrlDentistCard1.Location = new System.Drawing.Point(0, 0);
             this.ctrlDentistCard1.Name = "ctrlDentistCard1";
-            this.ctrlDentistCard1.Size = new System.Drawing.Size(836, 658);
+            this.ctrlDentistCard1.Size = new System.Drawing.Size(754, 652);
             this.ctrlDentistCard1.TabIndex = 0;
+            this.ctrlDentistCard1.Load += new System.EventHandler(this.ctrlDentistCard1_Load);
             // 
             // frmDentistCard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(824, 646);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.ClientSize = new System.Drawing.Size(754, 652);
             this.Controls.Add(this.ctrlDentistCard1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmDentistCard";

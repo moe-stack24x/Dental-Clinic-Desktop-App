@@ -25,7 +25,8 @@ namespace DentalClinic_Business
         public string PhoneNumber;
         public string Email;
         public string Address;
-
+        public string FullName
+        { get { return FirstName + " " + LastName; } }
         public clsPatient()
         {
             this.FirstName = "";

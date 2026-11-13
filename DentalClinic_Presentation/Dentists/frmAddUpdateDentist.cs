@@ -150,7 +150,7 @@ namespace DentalClinic_Presentation.Dentists
 
         private void btnClose_Click(object sender, EventArgs e)
         {
-            Close();
+            this.Close();
         }
 
         private void txtPhoneNumber_Validating(object sender, CancelEventArgs e)

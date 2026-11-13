@@ -186,7 +186,7 @@ namespace DentalClinic_Presentation.Patients
 
         private void btnClose_Click(object sender, EventArgs e)
         {
-            Close();
+            this.Close();
         }
     }
 }

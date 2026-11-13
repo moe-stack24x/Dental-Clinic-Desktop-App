@@ -100,9 +100,10 @@
             this.guna2GradientPanel1.Controls.Add(this.guna2HtmlLabel5);
             this.guna2GradientPanel1.Controls.Add(this.guna2HtmlLabel3);
             this.guna2GradientPanel1.Controls.Add(this.guna2HtmlLabel4);
-            this.guna2GradientPanel1.Location = new System.Drawing.Point(15, 21);
+            this.guna2GradientPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel1.Location = new System.Drawing.Point(0, 0);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(808, 629);
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(791, 658);
             this.guna2GradientPanel1.TabIndex = 15;
             // 
             // guna2CustomGradientPanel2
@@ -123,7 +124,7 @@
             this.guna2CustomGradientPanel2.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2CustomGradientPanel2.Location = new System.Drawing.Point(3, 3);
             this.guna2CustomGradientPanel2.Name = "guna2CustomGradientPanel2";
-            this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(802, 98);
+            this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(785, 98);
             this.guna2CustomGradientPanel2.TabIndex = 126;
             // 
             // guna2PictureBox2
@@ -133,9 +134,9 @@
             this.guna2PictureBox2.BorderRadius = 15;
             this.guna2PictureBox2.Image = global::DentalClinic_Presentation.Properties.Resources.customer;
             this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(143, 3);
+            this.guna2PictureBox2.Location = new System.Drawing.Point(134, 3);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Size = new System.Drawing.Size(88, 83);
+            this.guna2PictureBox2.Size = new System.Drawing.Size(88, 92);
             this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox2.TabIndex = 2;
             this.guna2PictureBox2.TabStop = false;
@@ -147,7 +148,7 @@
             this.guna2PictureBox1.BorderRadius = 15;
             this.guna2PictureBox1.Image = global::DentalClinic_Presentation.Properties.Resources.appointment__2_;
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(-176, 14);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(-185, 14);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
             this.guna2PictureBox1.Size = new System.Drawing.Size(79, 52);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -439,7 +440,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.Controls.Add(this.guna2GradientPanel1);
             this.Name = "ctrlPatientcard";
-            this.Size = new System.Drawing.Size(836, 658);
+            this.Size = new System.Drawing.Size(791, 658);
             this.Load += new System.EventHandler(this.ctrlPatientcard_Load);
             this.guna2GradientPanel1.ResumeLayout(false);
             this.guna2GradientPanel1.PerformLayout();

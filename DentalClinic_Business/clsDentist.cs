@@ -21,8 +21,10 @@ namespace DentalClinic_Business
             public string Specialization;
             public string PhoneNumber;
             public bool IsActive;
+        public string FullName 
+        { get { return FirstName + " " + LastName; } }
 
-            public clsDentist()
+        public clsDentist()
             {
                 this.FirstName = "";
                 this.LastName = "";

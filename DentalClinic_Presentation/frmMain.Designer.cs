@@ -68,12 +68,12 @@
             this.guna2CustomGradientPanel1.Controls.Add(this.btnAppointments);
             this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(12, 126);
             this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
-            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(279, 671);
+            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(279, 641);
             this.guna2CustomGradientPanel1.TabIndex = 0;
             // 
             // guna2CustomGradientPanel2
             // 
-            this.guna2CustomGradientPanel2.BackColor = System.Drawing.SystemColors.Control;
+            this.guna2CustomGradientPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.guna2CustomGradientPanel2.BorderRadius = 30;
             this.guna2CustomGradientPanel2.Controls.Add(this.guna2HtmlLabel2);
             this.guna2CustomGradientPanel2.Controls.Add(this.guna2HtmlLabel1);
@@ -126,7 +126,7 @@
             this.guna2CustomGradientPanel3.Controls.Add(this.guna2Button1);
             this.guna2CustomGradientPanel3.Location = new System.Drawing.Point(327, 5);
             this.guna2CustomGradientPanel3.Name = "guna2CustomGradientPanel3";
-            this.guna2CustomGradientPanel3.Size = new System.Drawing.Size(1039, 123);
+            this.guna2CustomGradientPanel3.Size = new System.Drawing.Size(1048, 115);
             this.guna2CustomGradientPanel3.TabIndex = 1;
             // 
             // guna2CustomGradientPanel4
@@ -137,7 +137,7 @@
             this.guna2CustomGradientPanel4.Controls.Add(this.guna2Button3);
             this.guna2CustomGradientPanel4.Location = new System.Drawing.Point(26, 214);
             this.guna2CustomGradientPanel4.Name = "guna2CustomGradientPanel4";
-            this.guna2CustomGradientPanel4.Size = new System.Drawing.Size(1039, 510);
+            this.guna2CustomGradientPanel4.Size = new System.Drawing.Size(1039, 502);
             this.guna2CustomGradientPanel4.TabIndex = 8;
             // 
             // panel
@@ -145,13 +145,11 @@
             this.panel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel.FillColor = System.Drawing.SystemColors.Control;
-            this.panel.FillColor2 = System.Drawing.SystemColors.Control;
-            this.panel.FillColor3 = System.Drawing.SystemColors.Control;
-            this.panel.FillColor4 = System.Drawing.SystemColors.Control;
-            this.panel.Location = new System.Drawing.Point(327, 156);
+            this.panel.BackColor = System.Drawing.Color.Transparent;
+            this.panel.BorderRadius = 15;
+            this.panel.Location = new System.Drawing.Point(327, 134);
             this.panel.Name = "panel";
-            this.panel.Size = new System.Drawing.Size(1089, 573);
+            this.panel.Size = new System.Drawing.Size(1048, 633);
             this.panel.TabIndex = 2;
             // 
             // guna2PictureBox1
@@ -207,10 +205,10 @@
             this.guna2Button2.Image = global::DentalClinic_Presentation.Properties.Resources.user__4_;
             this.guna2Button2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button2.ImageSize = new System.Drawing.Size(35, 35);
-            this.guna2Button2.Location = new System.Drawing.Point(764, 32);
+            this.guna2Button2.Location = new System.Drawing.Point(808, 32);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.PressedColor = System.Drawing.Color.Teal;
-            this.guna2Button2.Size = new System.Drawing.Size(231, 53);
+            this.guna2Button2.Size = new System.Drawing.Size(224, 53);
             this.guna2Button2.TabIndex = 8;
             this.guna2Button2.Text = "Current User";
             this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
@@ -229,9 +227,9 @@
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button1.ForeColor = System.Drawing.Color.Black;
             this.guna2Button1.HoverState.FillColor = System.Drawing.Color.Teal;
-            this.guna2Button1.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button1.Image")));
-            this.guna2Button1.ImageSize = new System.Drawing.Size(35, 35);
-            this.guna2Button1.Location = new System.Drawing.Point(677, 32);
+            this.guna2Button1.Image = global::DentalClinic_Presentation.Properties.Resources.gear__2_;
+            this.guna2Button1.ImageSize = new System.Drawing.Size(40, 40);
+            this.guna2Button1.Location = new System.Drawing.Point(744, 32);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.PressedColor = System.Drawing.Color.Teal;
             this.guna2Button1.Size = new System.Drawing.Size(58, 53);
@@ -252,7 +250,7 @@
             this.btnLogOut.HoverState.FillColor = System.Drawing.Color.Maroon;
             this.btnLogOut.Image = ((System.Drawing.Image)(resources.GetObject("btnLogOut.Image")));
             this.btnLogOut.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnLogOut.ImageSize = new System.Drawing.Size(35, 35);
+            this.btnLogOut.ImageSize = new System.Drawing.Size(40, 40);
             this.btnLogOut.Location = new System.Drawing.Point(13, 565);
             this.btnLogOut.Name = "btnLogOut";
             this.btnLogOut.PressedColor = System.Drawing.Color.Teal;
@@ -276,7 +274,7 @@
             this.btnInvoices.HoverState.FillColor = System.Drawing.Color.Teal;
             this.btnInvoices.Image = ((System.Drawing.Image)(resources.GetObject("btnInvoices.Image")));
             this.btnInvoices.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnInvoices.ImageSize = new System.Drawing.Size(35, 35);
+            this.btnInvoices.ImageSize = new System.Drawing.Size(40, 40);
             this.btnInvoices.Location = new System.Drawing.Point(13, 469);
             this.btnInvoices.Name = "btnInvoices";
             this.btnInvoices.PressedColor = System.Drawing.Color.Teal;
@@ -297,9 +295,9 @@
             this.btnMedications.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMedications.ForeColor = System.Drawing.Color.Black;
             this.btnMedications.HoverState.FillColor = System.Drawing.Color.Teal;
-            this.btnMedications.Image = ((System.Drawing.Image)(resources.GetObject("btnMedications.Image")));
+            this.btnMedications.Image = global::DentalClinic_Presentation.Properties.Resources.medi2_removebg_preview__2_;
             this.btnMedications.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnMedications.ImageSize = new System.Drawing.Size(35, 35);
+            this.btnMedications.ImageSize = new System.Drawing.Size(35, 40);
             this.btnMedications.Location = new System.Drawing.Point(13, 378);
             this.btnMedications.Name = "btnMedications";
             this.btnMedications.PressedColor = System.Drawing.Color.Teal;
@@ -344,9 +342,9 @@
             this.btnPatients.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPatients.ForeColor = System.Drawing.Color.Black;
             this.btnPatients.HoverState.FillColor = System.Drawing.Color.Teal;
-            this.btnPatients.Image = ((System.Drawing.Image)(resources.GetObject("btnPatients.Image")));
+            this.btnPatients.Image = global::DentalClinic_Presentation.Properties.Resources.patient_boy__1_;
             this.btnPatients.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnPatients.ImageSize = new System.Drawing.Size(35, 35);
+            this.btnPatients.ImageSize = new System.Drawing.Size(45, 45);
             this.btnPatients.Location = new System.Drawing.Point(13, 197);
             this.btnPatients.Name = "btnPatients";
             this.btnPatients.PressedColor = System.Drawing.Color.Teal;
@@ -370,7 +368,7 @@
             this.btnVisits.HoverState.FillColor = System.Drawing.Color.Teal;
             this.btnVisits.Image = ((System.Drawing.Image)(resources.GetObject("btnVisits.Image")));
             this.btnVisits.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnVisits.ImageSize = new System.Drawing.Size(35, 35);
+            this.btnVisits.ImageSize = new System.Drawing.Size(45, 45);
             this.btnVisits.Location = new System.Drawing.Point(13, 117);
             this.btnVisits.Name = "btnVisits";
             this.btnVisits.PressedColor = System.Drawing.Color.Teal;
@@ -394,20 +392,22 @@
             this.btnAppointments.HoverState.FillColor = System.Drawing.Color.Teal;
             this.btnAppointments.Image = ((System.Drawing.Image)(resources.GetObject("btnAppointments.Image")));
             this.btnAppointments.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnAppointments.ImageSize = new System.Drawing.Size(30, 30);
+            this.btnAppointments.ImageSize = new System.Drawing.Size(40, 40);
             this.btnAppointments.Location = new System.Drawing.Point(13, 39);
             this.btnAppointments.Name = "btnAppointments";
             this.btnAppointments.PressedColor = System.Drawing.Color.Teal;
             this.btnAppointments.Size = new System.Drawing.Size(248, 55);
             this.btnAppointments.TabIndex = 0;
             this.btnAppointments.Text = "Appointments";
+            this.btnAppointments.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.btnAppointments.Click += new System.EventHandler(this.btnAppointments_Click);
             // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1428, 802);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.ClientSize = new System.Drawing.Size(1414, 802);
             this.Controls.Add(this.panel);
             this.Controls.Add(this.guna2CustomGradientPanel2);
             this.Controls.Add(this.guna2CustomGradientPanel3);

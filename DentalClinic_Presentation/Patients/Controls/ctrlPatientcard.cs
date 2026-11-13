@@ -95,7 +95,7 @@ namespace DentalClinic_Presentation.Patients.Controls
         {
             frmAddUpdatePatient frm = new frmAddUpdatePatient(_PatientID);
             frm.DataBack += Frm_DataBack;
-            frm.Show();
+            frm.ShowDialog();
         }
         public void Frm_DataBack(object sender, int PatientID)
         {
