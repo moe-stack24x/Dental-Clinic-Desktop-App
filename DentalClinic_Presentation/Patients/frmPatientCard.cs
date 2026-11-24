@@ -37,6 +37,9 @@ namespace DentalClinic_Presentation.Patients
             ctrlPatientcard1.LoadPatientInfo(_PatientID);
         }
 
-       
+        private void ctrlPatientcard1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

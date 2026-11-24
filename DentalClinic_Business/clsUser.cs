@@ -136,7 +136,10 @@ namespace DentalClinic_Business
             return clsUserData.IsUserExist(UserName);
         }
 
-   
+   public bool changePassword( string NewPassword)
+        {
+            return clsUserData.ChangePassword(this.UserID, NewPassword);
+        }
 
     }
 }

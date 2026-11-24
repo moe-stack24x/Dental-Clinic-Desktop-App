@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using System.Data;
 using System.Data.SqlClient;
 
@@ -7,172 +6,200 @@ namespace DentalClinic_DataAccess
 {
     public class clsPerformedTreatmentData
     {
-        // Get Performed Treatment By ID
-        public static bool GetPerformedTreatmentInfoByID(
-            int PerformedTreatmentID,
-            ref DateTime PerformedTreatmentDateTime,
-            ref int VisitID,
-            ref int TreatmentTypeID)
+        public static bool GetPerformedTreatmentById(int PerformedTreatmentID,
+            ref DateTime PerformedTreatmentDateTime, ref int VisitID, ref int TreatmentTypeID)
         {
-            bool IsFound = false;
+            bool isfound = false;
 
-            using (SqlConnection connection = new SqlConnection(
-                clsDataAccessSettings.ConnectionString))
+            SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString);
+
+            string query = "SELECT * FROM PerformedTreatments WHERE PerformedTreatmentID = @PerformedTreatmentID";
+
+            SqlCommand command = new SqlCommand(query, connection);
+            command.Parameters.AddWithValue("@PerformedTreatmentID", PerformedTreatmentID);
+
+            try
             {
-                string query = @"SELECT *
-                                 FROM PerformedTreatments
-                                 WHERE PerformedTreatmentID = @PerformedTreatmentID";
+                connection.Open();
 
-                using (SqlCommand command = new SqlCommand(query, connection))
+                SqlDataReader reader = command.ExecuteReader();
+
+                if (reader.Read())
                 {
-                    command.Parameters.AddWithValue(
-                        "@PerformedTreatmentID", PerformedTreatmentID);
+                    isfound = true;
 
-                    connection.Open();
-
-                    using (SqlDataReader reader = command.ExecuteReader())
-                    {
-                        if (reader.Read())
-                        {
-                            IsFound = true;
-
-                            PerformedTreatmentDateTime =
-                                (DateTime)reader["PerformedTreatmentDateTime"];
-
-                            VisitID = (int)reader["VisitID"];
-
-                            TreatmentTypeID = (int)reader["TreatmentTypeID"];
-                        }
-                    }
+                    PerformedTreatmentDateTime = Convert.ToDateTime(reader["PerformedTreatmentDateTime"]);
+                    VisitID = Convert.ToInt32(reader["VisitID"]);
+                    TreatmentTypeID = Convert.ToInt32(reader["TreatmentTypeID"]);
                 }
+                else
+                {
+                    isfound = false;
+                }
+
+                reader.Close();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("An error occurred while retrieving the performed treatment.", ex);
+            }
+            finally
+            {
+                connection.Close();
             }
 
-            return IsFound;
+            return isfound;
         }
 
-        // Get All Performed Treatments By Visit ID
         public static DataTable GetAllPerformedTreatmentsByVisitID(int VisitID)
         {
             DataTable dt = new DataTable();
 
-            using (SqlConnection connection = new SqlConnection(
-                clsDataAccessSettings.ConnectionString))
+            SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString);
+
+            string query = @"SELECT
+                                PerformedTreatments.PerformedTreatmentID,
+                                TreatmentTypes.TreatmentTypeName,
+                                PerformedTreatments.PerformedTreatmentDateTime,
+                                TreatmentTypes.DefaultPrice
+                             FROM PerformedTreatments
+                             INNER JOIN TreatmentTypes
+                             ON PerformedTreatments.TreatmentTypeID = TreatmentTypes.TreatmentTypeID
+                             WHERE PerformedTreatments.VisitID = @VisitID";
+
+            SqlCommand command = new SqlCommand(query, connection);
+            command.Parameters.AddWithValue("@VisitID", VisitID);
+
+            try
             {
-                string query = @"SELECT
-                                    PerformedTreatmentID,
-                                    PerformedTreatmentDateTime,
-                                    VisitID,
-                                    TreatmentTypeID
-                                 FROM PerformedTreatments
-                                 WHERE VisitID = @VisitID
-                                 ORDER BY PerformedTreatmentDateTime";
+                connection.Open();
 
-                using (SqlCommand command = new SqlCommand(query, connection))
+                SqlDataReader reader = command.ExecuteReader();
+
+                if (reader.HasRows)
                 {
-                    command.Parameters.AddWithValue("@VisitID", VisitID);
-
-                    connection.Open();
-
-                    using (SqlDataReader reader = command.ExecuteReader())
-                    {
-                        dt.Load(reader);
-                    }
+                    dt.Load(reader);
                 }
+
+                reader.Close();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("An error occurred while retrieving performed treatments.", ex);
+            }
+            finally
+            {
+                connection.Close();
             }
 
             return dt;
         }
 
-        // Add New Performed Treatment
-        public static int AddNewPerformedTreatment(
-            DateTime PerformedTreatmentDateTime,
-            int VisitID,
-            int TreatmentTypeID)
+        public static int AddPerformedTreatment(DateTime PerformedTreatmentDateTime,
+            int VisitID, int TreatmentTypeID)
         {
-            int PerformedTreatmentID = -1;
+            int newPerformedTreatmentID = 0;
 
-            using (SqlConnection connection = new SqlConnection(
-                clsDataAccessSettings.ConnectionString))
+            SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString);
+
+            string query = @"INSERT INTO PerformedTreatments
+                             (PerformedTreatmentDateTime, VisitID, TreatmentTypeID)
+                             VALUES
+                             (@PerformedTreatmentDateTime, @VisitID, @TreatmentTypeID);
+                             SELECT SCOPE_IDENTITY();";
+
+            SqlCommand command = new SqlCommand(query, connection);
+
+            command.Parameters.AddWithValue("@PerformedTreatmentDateTime", PerformedTreatmentDateTime);
+            command.Parameters.AddWithValue("@VisitID", VisitID);
+            command.Parameters.AddWithValue("@TreatmentTypeID", TreatmentTypeID);
+
+            try
             {
-                string query = @"INSERT INTO PerformedTreatments
-                                 (PerformedTreatmentDateTime, VisitID, TreatmentTypeID)
-                                 VALUES
-                                 (@PerformedTreatmentDateTime, @VisitID, @TreatmentTypeID);
+                connection.Open();
 
-                                 SELECT SCOPE_IDENTITY();";
+                object result = command.ExecuteScalar();
 
-                using (SqlCommand command = new SqlCommand(query, connection))
+                if (result != null && int.TryParse(result.ToString(), out int performedTreatmentID))
                 {
-                    command.Parameters.AddWithValue(
-                        "@PerformedTreatmentDateTime", PerformedTreatmentDateTime);
-
-                    command.Parameters.AddWithValue("@VisitID", VisitID);
-                    command.Parameters.AddWithValue("@TreatmentTypeID", TreatmentTypeID);
-
-                    connection.Open();
-
-                    object result = command.ExecuteScalar();
-
-                    if (result != null && result != DBNull.Value)
-                    {
-                        PerformedTreatmentID = Convert.ToInt32(result);
-                    }
+                    newPerformedTreatmentID = performedTreatmentID;
                 }
             }
+            catch (Exception ex)
+            {
+                throw new Exception("An error occurred while adding the performed treatment.", ex);
+            }
+            finally
+            {
+                connection.Close();
+            }
 
-            return PerformedTreatmentID;
+            return newPerformedTreatmentID;
         }
 
-        // Delete Performed Treatment
+        public static bool UpdatePerformedTreatment(int PerformedTreatmentID,
+            DateTime PerformedTreatmentDateTime, int VisitID, int TreatmentTypeID)
+        {
+            int rowsAffected = 0;
+
+            SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString);
+
+            string query = @"UPDATE PerformedTreatments
+                             SET PerformedTreatmentDateTime = @PerformedTreatmentDateTime,
+                                 VisitID = @VisitID,
+                                 TreatmentTypeID = @TreatmentTypeID
+                             WHERE PerformedTreatmentID = @PerformedTreatmentID";
+
+            SqlCommand command = new SqlCommand(query, connection);
+
+            command.Parameters.AddWithValue("@PerformedTreatmentID", PerformedTreatmentID);
+            command.Parameters.AddWithValue("@PerformedTreatmentDateTime", PerformedTreatmentDateTime);
+            command.Parameters.AddWithValue("@VisitID", VisitID);
+            command.Parameters.AddWithValue("@TreatmentTypeID", TreatmentTypeID);
+
+            try
+            {
+                connection.Open();
+                rowsAffected = command.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("An error occurred while updating the performed treatment.", ex);
+            }
+            finally
+            {
+                connection.Close();
+            }
+
+            return rowsAffected > 0;
+        }
+
         public static bool DeletePerformedTreatment(int PerformedTreatmentID)
         {
-            int RowsAffected = 0;
+            int rowsAffected = 0;
 
-            using (SqlConnection connection = new SqlConnection(
-                clsDataAccessSettings.ConnectionString))
+            SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString);
+
+            string query = "DELETE FROM PerformedTreatments WHERE PerformedTreatmentID = @PerformedTreatmentID";
+
+            SqlCommand command = new SqlCommand(query, connection);
+            command.Parameters.AddWithValue("@PerformedTreatmentID", PerformedTreatmentID);
+
+            try
             {
-                string query = @"DELETE FROM PerformedTreatments
-                                 WHERE PerformedTreatmentID = @PerformedTreatmentID";
-
-                using (SqlCommand command = new SqlCommand(query, connection))
-                {
-                    command.Parameters.AddWithValue(
-                        "@PerformedTreatmentID", PerformedTreatmentID);
-
-                    connection.Open();
-
-                    RowsAffected = command.ExecuteNonQuery();
-                }
+                connection.Open();
+                rowsAffected = command.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("An error occurred while deleting the performed treatment.", ex);
+            }
+            finally
+            {
+                connection.Close();
             }
 
-            return RowsAffected > 0;
-        }
-        public static bool UpdatePerformedTreatment( int PerformedTreatmentID, DateTime PerformedTreatmentDateTime,  int VisitID,  int TreatmentTypeID)
-        {
-            int RowsAffected = 0;
-
-            using (SqlConnection connection = new SqlConnection(
-                clsDataAccessSettings.ConnectionString))
-            {
-                string query = @"UPDATE PerformedTreatments
-                         SET PerformedTreatmentDateTime = @PerformedTreatmentDateTime,
-                             VisitID = @VisitID,
-                             TreatmentTypeID = @TreatmentTypeID
-                         WHERE PerformedTreatmentID = @PerformedTreatmentID";
-
-                using (SqlCommand command = new SqlCommand(query, connection))
-                {
-                    command.Parameters.AddWithValue("@PerformedTreatmentID", PerformedTreatmentID);
-                    command.Parameters.AddWithValue("@PerformedTreatmentDateTime", PerformedTreatmentDateTime);
-                    command.Parameters.AddWithValue("@VisitID", VisitID);
-                    command.Parameters.AddWithValue("@TreatmentTypeID", TreatmentTypeID);
-
-                    connection.Open();
-                    RowsAffected = command.ExecuteNonQuery();
-                }
-            }
-
-            return RowsAffected > 0;
+            return rowsAffected > 0;
         }
     }
 }

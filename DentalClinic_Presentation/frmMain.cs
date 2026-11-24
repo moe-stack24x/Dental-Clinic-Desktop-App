@@ -3,6 +3,8 @@ using DentalClinic_Presentation.Dentists;
 using DentalClinic_Presentation.Global_Classes;
 using DentalClinic_Presentation.Login;
 using DentalClinic_Presentation.Patients;
+using DentalClinic_Presentation.Prescriptions;
+using DentalClinic_Presentation.Settings;
 using DentalClinic_Presentation.Users;
 using DentalClinic_Presentation.Visits;
 using System;
@@ -35,50 +37,6 @@ namespace DentalClinic_Presentation
             frm.Show();
         }
 
-        private void tpManageUsers_Click(object sender, EventArgs e)
-        {
-            frmManageUsers frm = new frmManageUsers();
-            LoadForm(frm);
-        }
-
-       
-
-       
-
-        private void guna2Button4_Click(object sender, EventArgs e)
-        {
-            frmManageDentists frm = new frmManageDentists();
-            LoadForm(frm);
-        }
-
-        private void guna2HtmlLabel2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnPatients_Click(object sender, EventArgs e)
-        {
-            frmManagePatients frm = new frmManagePatients();
-            LoadForm(frm);
-        }
-
-        private void frmMain_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnLogOut_Click(object sender, EventArgs e)
-        {
-            clsGlobal.CurrentUser = null;
-            _frmLogin.ShowDialog();
-            this.Hide();
-        }
-
-        private void guna2Button2_Click(object sender, EventArgs e)
-        {
-            frmUserInfo frm = new frmUserInfo(clsGlobal.CurrentUser.UserID);
-            frm.ShowDialog();
-        }
 
         private void btnAppointments_Click(object sender, EventArgs e)
         {
@@ -90,6 +48,43 @@ namespace DentalClinic_Presentation
         {
             frmManageVisits frm = new frmManageVisits();
             LoadForm(frm);
+        }
+        private void btnPatients_Click(object sender, EventArgs e)
+        {
+            frmManagePatients frm = new frmManagePatients();
+            LoadForm(frm);
+        }
+        private void btnDentists_Click(object sender, EventArgs e)
+        {
+            frmManageDentists frm = new frmManageDentists();
+            LoadForm(frm);
+        }
+        private void btnUsers_Click(object sender, EventArgs e)
+        {
+            frmManageUsers frm = new frmManageUsers();
+            LoadForm(frm);
+        }
+
+        private void btnLogOut_Click(object sender, EventArgs e)
+        {
+            clsGlobal.CurrentUser = null;
+            this.Close();
+            this.Hide();
+            _frmLogin.ShowDialog();
+          
+        }
+
+      
+        private void btnSettings_Click(object sender, EventArgs e)
+        {
+            frmsettings frm = new frmsettings();
+            frm.ShowDialog();
+        }
+
+        private void btnCurrentUser_Click(object sender, EventArgs e)
+        {
+            frmUserInfo frm = new frmUserInfo(clsGlobal.CurrentUser.UserID);
+           frm.ShowDialog();
         }
     }
 }

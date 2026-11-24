@@ -48,8 +48,6 @@ namespace DentalClinic_Presentation.Appointments
         }
 
 
-
-
         private void btnClose_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -162,7 +160,6 @@ namespace DentalClinic_Presentation.Appointments
         }
 
 
-
         private void canselPToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (MessageBox.Show("Are you sure you want to cansel this Appointment?", "Confirm canselation", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
@@ -206,6 +203,10 @@ namespace DentalClinic_Presentation.Appointments
         }
 
 
+
+
     }
+
+
 }
 

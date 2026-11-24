@@ -17,14 +17,14 @@ namespace DentalClinic_Business
         public enMode Mode = enMode.AddNew;
 
 
-        public int PatientID;
-        public string FirstName;
-        public string LastName;
-        public DateTime BirthDate;
-        public bool Gender;
-        public string PhoneNumber;
-        public string Email;
-        public string Address;
+        public int PatientID { set; get; }
+        public string FirstName { set; get; }
+        public string LastName { set; get; }
+        public DateTime BirthDate { set; get; }
+        public bool Gender { set; get; }
+        public string PhoneNumber { set; get; }
+        public string Email { set; get; }
+        public string Address { set; get; }
         public string FullName
         { get { return FirstName + " " + LastName; } }
         public clsPatient()

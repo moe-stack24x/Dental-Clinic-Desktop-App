@@ -70,5 +70,9 @@ namespace DentalClinic_Presentation.Patients.Controls
            
         }
 
+        private void guna2ShadowPanel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

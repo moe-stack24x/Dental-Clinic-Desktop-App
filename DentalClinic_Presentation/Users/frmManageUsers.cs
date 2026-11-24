@@ -40,10 +40,6 @@ namespace DentalClinic_Presentation.Users
         }
       
 
-      
-
-      
-
         private void btnClose_Click(object sender, EventArgs e)
         {
             this.Close();

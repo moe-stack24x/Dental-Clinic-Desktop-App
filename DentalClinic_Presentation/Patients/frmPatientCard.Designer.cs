@@ -38,6 +38,7 @@
             this.ctrlPatientcard1.Name = "ctrlPatientcard1";
             this.ctrlPatientcard1.Size = new System.Drawing.Size(811, 652);
             this.ctrlPatientcard1.TabIndex = 0;
+            this.ctrlPatientcard1.Load += new System.EventHandler(this.ctrlPatientcard1_Load);
             // 
             // frmPatientCard
             // 

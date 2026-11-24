@@ -117,9 +117,9 @@ namespace DentalClinic_Presentation.Users
                 return;
             }
 
-            _User.Password = txtNewPassword.Text;
+           
 
-            if (_User.Save())
+            if (_User.changePassword(txtNewPassword.Text))
             {
                 MessageBox.Show("Password Changed Successfully.",
                    "Saved.", MessageBoxButtons.OK, MessageBoxIcon.Information);

@@ -45,13 +45,13 @@
             this.cmsDentists = new Guna.UI2.WinForms.Guna2ContextMenuStrip();
             this.EditToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.DeletePToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.changePasswordToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.cbIsActive = new Guna.UI2.WinForms.Guna2ComboBox();
             this.txtFillterBy = new Guna.UI2.WinForms.Guna2TextBox();
             this.cbFilterBy = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.btnAddUser = new Guna.UI2.WinForms.Guna2Button();
-            this.changePasswordToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.guna2GradientPanel1.SuspendLayout();
             this.guna2CustomGradientPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
@@ -68,13 +68,12 @@
             this.guna2GradientPanel1.BorderRadius = 10;
             this.guna2GradientPanel1.BorderThickness = 3;
             this.guna2GradientPanel1.Controls.Add(this.guna2CustomGradientPanel2);
-            this.guna2GradientPanel1.Controls.Add(this.guna2PictureBox1);
             this.guna2GradientPanel1.Controls.Add(this.btnClose);
             this.guna2GradientPanel1.Controls.Add(this.guna2ShadowPanel1);
             this.guna2GradientPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2GradientPanel1.Location = new System.Drawing.Point(0, 0);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(1091, 754);
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(1206, 584);
             this.guna2GradientPanel1.TabIndex = 11;
             // 
             // guna2CustomGradientPanel2
@@ -87,37 +86,38 @@
             this.guna2CustomGradientPanel2.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
             this.guna2CustomGradientPanel2.BorderThickness = 2;
             this.guna2CustomGradientPanel2.Controls.Add(this.guna2HtmlLabel3);
-            this.guna2CustomGradientPanel2.FillColor = System.Drawing.Color.Black;
+            this.guna2CustomGradientPanel2.Controls.Add(this.guna2PictureBox1);
+            this.guna2CustomGradientPanel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2CustomGradientPanel2.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2CustomGradientPanel2.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2CustomGradientPanel2.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.guna2CustomGradientPanel2.Location = new System.Drawing.Point(309, 82);
+            this.guna2CustomGradientPanel2.Location = new System.Drawing.Point(14, 12);
             this.guna2CustomGradientPanel2.Name = "guna2CustomGradientPanel2";
-            this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(520, 86);
+            this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(1174, 104);
             this.guna2CustomGradientPanel2.TabIndex = 9;
             // 
             // guna2HtmlLabel3
             // 
             this.guna2HtmlLabel3.AutoSize = false;
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2HtmlLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(0, 0);
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(126, 3);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(520, 86);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(758, 69);
             this.guna2HtmlLabel3.TabIndex = 0;
             this.guna2HtmlLabel3.Text = "Manage Users";
-            this.guna2HtmlLabel3.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            this.guna2HtmlLabel3.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // guna2PictureBox1
             // 
-            this.guna2PictureBox1.BackColor = System.Drawing.SystemColors.Control;
-            this.guna2PictureBox1.Image = global::DentalClinic_Presentation.Properties.Resources.users__1_;
+            this.guna2PictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.guna2PictureBox1.Image = global::DentalClinic_Presentation.Properties.Resources.users__2_;
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(529, 16);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(49, 12);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
             this.guna2PictureBox1.Size = new System.Drawing.Size(71, 60);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox1.TabIndex = 1;
             this.guna2PictureBox1.TabStop = false;
             // 
@@ -138,7 +138,7 @@
             this.btnClose.Image = global::DentalClinic_Presentation.Properties.Resources.close__1_;
             this.btnClose.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.btnClose.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnClose.Location = new System.Drawing.Point(944, 618);
+            this.btnClose.Location = new System.Drawing.Point(1042, 529);
             this.btnClose.Name = "btnClose";
             this.btnClose.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.btnClose.Size = new System.Drawing.Size(135, 52);
@@ -156,12 +156,12 @@
             this.guna2ShadowPanel1.Controls.Add(this.dgvAllUsers);
             this.guna2ShadowPanel1.Controls.Add(this.guna2CustomGradientPanel1);
             this.guna2ShadowPanel1.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel1.Location = new System.Drawing.Point(14, 180);
+            this.guna2ShadowPanel1.Location = new System.Drawing.Point(5, 113);
             this.guna2ShadowPanel1.Name = "guna2ShadowPanel1";
             this.guna2ShadowPanel1.Radius = 10;
             this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2ShadowPanel1.ShadowShift = 10;
-            this.guna2ShadowPanel1.Size = new System.Drawing.Size(1074, 420);
+            this.guna2ShadowPanel1.Size = new System.Drawing.Size(1189, 420);
             this.guna2ShadowPanel1.TabIndex = 8;
             // 
             // guna2CustomGradientPanel4
@@ -250,7 +250,7 @@
             this.dgvAllUsers.RowHeadersVisible = false;
             this.dgvAllUsers.RowHeadersWidth = 120;
             this.dgvAllUsers.RowTemplate.Height = 25;
-            this.dgvAllUsers.Size = new System.Drawing.Size(1033, 244);
+            this.dgvAllUsers.Size = new System.Drawing.Size(1148, 244);
             this.dgvAllUsers.TabIndex = 0;
             this.dgvAllUsers.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.White;
             this.dgvAllUsers.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
@@ -289,7 +289,7 @@
             this.cmsDentists.RenderStyle.SelectionForeColor = System.Drawing.Color.White;
             this.cmsDentists.RenderStyle.SeparatorColor = System.Drawing.Color.Gainsboro;
             this.cmsDentists.RenderStyle.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            this.cmsDentists.Size = new System.Drawing.Size(234, 128);
+            this.cmsDentists.Size = new System.Drawing.Size(234, 100);
             // 
             // EditToolStripMenuItem
             // 
@@ -311,6 +311,14 @@
             this.DeletePToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.DeletePToolStripMenuItem.Click += new System.EventHandler(this.DeletePToolStripMenuItem_Click);
             // 
+            // changePasswordToolStripMenuItem
+            // 
+            this.changePasswordToolStripMenuItem.Image = global::DentalClinic_Presentation.Properties.Resources.password;
+            this.changePasswordToolStripMenuItem.Name = "changePasswordToolStripMenuItem";
+            this.changePasswordToolStripMenuItem.Size = new System.Drawing.Size(233, 32);
+            this.changePasswordToolStripMenuItem.Text = "Change Password";
+            this.changePasswordToolStripMenuItem.Click += new System.EventHandler(this.changePasswordToolStripMenuItem_Click);
+            // 
             // guna2CustomGradientPanel1
             // 
             this.guna2CustomGradientPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -326,7 +334,7 @@
             this.guna2CustomGradientPanel1.Controls.Add(this.btnAddUser);
             this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(24, 19);
             this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
-            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(1033, 91);
+            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(1148, 91);
             this.guna2CustomGradientPanel1.TabIndex = 7;
             // 
             // cbIsActive
@@ -425,7 +433,7 @@
             this.btnAddUser.Image = global::DentalClinic_Presentation.Properties.Resources.user__2_;
             this.btnAddUser.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.btnAddUser.ImageSize = new System.Drawing.Size(60, 60);
-            this.btnAddUser.Location = new System.Drawing.Point(804, 12);
+            this.btnAddUser.Location = new System.Drawing.Point(919, 12);
             this.btnAddUser.Name = "btnAddUser";
             this.btnAddUser.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.btnAddUser.Size = new System.Drawing.Size(217, 64);
@@ -434,19 +442,10 @@
             this.btnAddUser.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnAddUser.Click += new System.EventHandler(this.btnAddUsers_Click);
             // 
-            // changePasswordToolStripMenuItem
-            // 
-            this.changePasswordToolStripMenuItem.Image = global::DentalClinic_Presentation.Properties.Resources.password;
-            this.changePasswordToolStripMenuItem.Name = "changePasswordToolStripMenuItem";
-            this.changePasswordToolStripMenuItem.Size = new System.Drawing.Size(233, 32);
-            this.changePasswordToolStripMenuItem.Text = "Change Password";
-            this.changePasswordToolStripMenuItem.Click += new System.EventHandler(this.changePasswordToolStripMenuItem_Click);
-            // 
             // frmManageUsers
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1091, 754);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.ClientSize = new System.Drawing.Size(1206, 584);
             this.Controls.Add(this.guna2GradientPanel1);
             this.Name = "frmManageUsers";
             this.Text = "frmManageUsers";

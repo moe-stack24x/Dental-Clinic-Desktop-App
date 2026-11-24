@@ -1,5 +1,7 @@
 ﻿
 using DentalClinic_Business;
+using DentalClinic_Presentation.PerformedTreatments;
+using DentalClinic_Presentation.Visits.WorkFlow;
 using System;
 using System.Data;
 using System.Windows.Forms;
@@ -130,6 +132,19 @@ namespace DentalClinic_Presentation.Visits
             }
         }
 
-        
+        private void manageTreatmentsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            int VisitID = (int)dgvAllVisits.CurrentRow.Cells[0].Value;
+            frmManagePerformedTreatments frm = new frmManagePerformedTreatments(VisitID);
+            frm.ShowDialog();
+
+        }
+
+        private void btnAddPatients_Click(object sender, EventArgs e)
+        {
+            int VisitID = (int)dgvAllVisits.CurrentRow.Cells[0].Value;
+            frmVisitWorkFlow frm = new frmVisitWorkFlow(VisitID);
+            frm.ShowDialog();
+        }
     }
 }

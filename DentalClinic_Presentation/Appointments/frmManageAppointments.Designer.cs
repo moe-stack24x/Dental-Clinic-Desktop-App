@@ -74,7 +74,7 @@
             this.guna2GradientPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2GradientPanel1.Location = new System.Drawing.Point(0, 0);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(1290, 608);
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(1206, 584);
             this.guna2GradientPanel1.TabIndex = 11;
             // 
             // guna2CustomGradientPanel2
@@ -95,7 +95,7 @@
             this.guna2CustomGradientPanel2.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2CustomGradientPanel2.Location = new System.Drawing.Point(24, 12);
             this.guna2CustomGradientPanel2.Name = "guna2CustomGradientPanel2";
-            this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(1244, 112);
+            this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(1174, 104);
             this.guna2CustomGradientPanel2.TabIndex = 8;
             // 
             // guna2HtmlLabel4
@@ -131,12 +131,12 @@
             this.guna2ShadowPanel1.Controls.Add(this.guna2CustomGradientPanel3);
             this.guna2ShadowPanel1.Controls.Add(this.dgvAllAppointments);
             this.guna2ShadowPanel1.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel1.Location = new System.Drawing.Point(17, 123);
+            this.guna2ShadowPanel1.Location = new System.Drawing.Point(17, 111);
             this.guna2ShadowPanel1.Name = "guna2ShadowPanel1";
             this.guna2ShadowPanel1.Radius = 10;
             this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2ShadowPanel1.ShadowShift = 10;
-            this.guna2ShadowPanel1.Size = new System.Drawing.Size(1273, 420);
+            this.guna2ShadowPanel1.Size = new System.Drawing.Size(1189, 420);
             this.guna2ShadowPanel1.TabIndex = 8;
             // 
             // guna2CustomGradientPanel1
@@ -154,7 +154,7 @@
             this.guna2CustomGradientPanel1.Controls.Add(this.btnAddPatients);
             this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(24, 19);
             this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
-            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(1235, 91);
+            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(1151, 91);
             this.guna2CustomGradientPanel1.TabIndex = 11;
             // 
             // cbAppointmentStatus
@@ -239,6 +239,7 @@
             // btnAddPatients
             // 
             this.btnAddPatients.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnAddPatients.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnAddPatients.BorderRadius = 15;
             this.btnAddPatients.BorderThickness = 2;
             this.btnAddPatients.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -250,7 +251,7 @@
             this.btnAddPatients.ForeColor = System.Drawing.Color.White;
             this.btnAddPatients.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.btnAddPatients.ImageSize = new System.Drawing.Size(60, 60);
-            this.btnAddPatients.Location = new System.Drawing.Point(967, 14);
+            this.btnAddPatients.Location = new System.Drawing.Point(883, 14);
             this.btnAddPatients.Name = "btnAddPatients";
             this.btnAddPatients.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.btnAddPatients.Size = new System.Drawing.Size(253, 64);
@@ -345,7 +346,7 @@
             this.dgvAllAppointments.RowHeadersVisible = false;
             this.dgvAllAppointments.RowHeadersWidth = 120;
             this.dgvAllAppointments.RowTemplate.Height = 25;
-            this.dgvAllAppointments.Size = new System.Drawing.Size(1232, 244);
+            this.dgvAllAppointments.Size = new System.Drawing.Size(1148, 244);
             this.dgvAllAppointments.TabIndex = 0;
             this.dgvAllAppointments.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.White;
             this.dgvAllAppointments.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
@@ -390,9 +391,10 @@
             // btnClose
             // 
             this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnClose.BackColor = System.Drawing.Color.White;
+            this.btnClose.BackColor = System.Drawing.SystemColors.Control;
+            this.btnClose.BorderColor = System.Drawing.Color.Maroon;
             this.btnClose.BorderRadius = 15;
-            this.btnClose.BorderThickness = 3;
+            this.btnClose.BorderThickness = 1;
             this.btnClose.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnClose.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnClose.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -403,8 +405,9 @@
             this.btnClose.Image = global::DentalClinic_Presentation.Properties.Resources.close__1_;
             this.btnClose.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.btnClose.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnClose.Location = new System.Drawing.Point(1143, 549);
+            this.btnClose.Location = new System.Drawing.Point(1057, 529);
             this.btnClose.Name = "btnClose";
+            this.btnClose.PressedColor = System.Drawing.Color.White;
             this.btnClose.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.btnClose.Size = new System.Drawing.Size(135, 52);
             this.btnClose.TabIndex = 7;
@@ -414,14 +417,13 @@
             // 
             // guna2PictureBox1
             // 
-            this.guna2PictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.guna2PictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2PictureBox1.BorderRadius = 15;
-            this.guna2PictureBox1.Image = global::DentalClinic_Presentation.Properties.Resources.appointment__11_;
+            this.guna2PictureBox1.Image = global::DentalClinic_Presentation.Properties.Resources.appointment__20_;
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(45, 14);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(30, 13);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(79, 66);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(91, 80);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox1.TabIndex = 1;
             this.guna2PictureBox1.TabStop = false;
@@ -459,7 +461,7 @@
             // frmManageAppointments
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.ClientSize = new System.Drawing.Size(1290, 608);
+            this.ClientSize = new System.Drawing.Size(1206, 584);
             this.Controls.Add(this.guna2GradientPanel1);
             this.Name = "frmManageAppointments";
             this.Text = "frmManageAppointments";

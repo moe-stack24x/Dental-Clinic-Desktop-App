@@ -16,7 +16,6 @@ namespace DentalClinic_Presentation.Dentists
     {
       
 
-       
         private DataTable _dtAllDentists;
        
          public frmManageDentists()

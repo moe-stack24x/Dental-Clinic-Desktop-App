@@ -70,30 +70,9 @@ namespace DentalClinic_DataAccess
             SqlConnection connection =
                 new SqlConnection(clsDataAccessSettings.ConnectionString);
 
-            string query = @"SELECT
-          A.AppointmentID,
-          P.FirstName + ' ' + P.LastName AS PatientName,
-          D.FirstName + ' ' + D.LastName AS DentistName,
-          A.AppointmentDate,
-          A.AppointmentStartTime,
-          A.AppointmentEndTime,
-          CASE A.AppointmentStatus
-              WHEN 1 THEN 'Scheduled'
-              WHEN 2 THEN 'Cancelled'
-              WHEN 3 THEN 'Completed'
-              ELSE 'Unknown'
-           END AS AppointmentStatus
-
-       FROM Appointments A
-      INNER JOIN Patients P
-          ON A.PatientID = P.PatientID
-
-      INNER JOIN Dentists D
-         ON A.DentistID = D.DentistID
-
-      ORDER BY A.AppointmentDate, A.AppointmentStartTime;";
-
-
+            string query = @"SELECT *
+                     FROM vwAppointments
+                     ORDER BY AppointmentDate, AppointmentStartTime";
 
             SqlCommand command = new SqlCommand(query, connection);
 

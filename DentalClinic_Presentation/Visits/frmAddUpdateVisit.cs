@@ -19,10 +19,7 @@ namespace DentalClinic_Presentation.Visits
         public event DataBackEventHandler DataBack;
 
         public enum enMode { AddNew = 0, Update = 1 };
-
         private enMode _Mode;
-
-       
 
         private int _AppointmentID = -1;
         private clsAppointment _Appointment;

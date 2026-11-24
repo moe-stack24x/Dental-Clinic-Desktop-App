@@ -71,7 +71,7 @@
             this.guna2GradientPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2GradientPanel1.Location = new System.Drawing.Point(0, 0);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(1139, 610);
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(1206, 584);
             this.guna2GradientPanel1.TabIndex = 12;
             // 
             // guna2CustomGradientPanel4
@@ -90,9 +90,9 @@
             this.guna2CustomGradientPanel4.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2CustomGradientPanel4.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2CustomGradientPanel4.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.guna2CustomGradientPanel4.Location = new System.Drawing.Point(9, 12);
+            this.guna2CustomGradientPanel4.Location = new System.Drawing.Point(20, 12);
             this.guna2CustomGradientPanel4.Name = "guna2CustomGradientPanel4";
-            this.guna2CustomGradientPanel4.Size = new System.Drawing.Size(1127, 112);
+            this.guna2CustomGradientPanel4.Size = new System.Drawing.Size(1174, 104);
             this.guna2CustomGradientPanel4.TabIndex = 13;
             // 
             // guna2HtmlLabel1
@@ -150,7 +150,7 @@
             this.btnClose.Image = global::DentalClinic_Presentation.Properties.Resources.close__1_;
             this.btnClose.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.btnClose.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnClose.Location = new System.Drawing.Point(992, 546);
+            this.btnClose.Location = new System.Drawing.Point(1054, 529);
             this.btnClose.Name = "btnClose";
             this.btnClose.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.btnClose.Size = new System.Drawing.Size(135, 52);
@@ -167,12 +167,12 @@
             this.guna2ShadowPanel1.Controls.Add(this.guna2CustomGradientPanel3);
             this.guna2ShadowPanel1.Controls.Add(this.dgvAllVisits);
             this.guna2ShadowPanel1.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel1.Location = new System.Drawing.Point(17, 141);
+            this.guna2ShadowPanel1.Location = new System.Drawing.Point(14, 118);
             this.guna2ShadowPanel1.Name = "guna2ShadowPanel1";
             this.guna2ShadowPanel1.Radius = 10;
             this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2ShadowPanel1.ShadowShift = 10;
-            this.guna2ShadowPanel1.Size = new System.Drawing.Size(1122, 408);
+            this.guna2ShadowPanel1.Size = new System.Drawing.Size(1189, 408);
             this.guna2ShadowPanel1.TabIndex = 8;
             // 
             // guna2CustomGradientPanel1
@@ -189,7 +189,7 @@
             this.guna2CustomGradientPanel1.Controls.Add(this.btnAddPatients);
             this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(24, 19);
             this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
-            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(1084, 91);
+            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(1151, 91);
             this.guna2CustomGradientPanel1.TabIndex = 11;
             // 
             // txtFillterBy
@@ -261,14 +261,17 @@
             this.btnAddPatients.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnAddPatients.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
             this.btnAddPatients.ForeColor = System.Drawing.Color.White;
-            this.btnAddPatients.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.btnAddPatients.Image = global::DentalClinic_Presentation.Properties.Resources.workflow_removebg_preview;
+            this.btnAddPatients.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnAddPatients.ImageSize = new System.Drawing.Size(60, 60);
-            this.btnAddPatients.Location = new System.Drawing.Point(857, 14);
+            this.btnAddPatients.Location = new System.Drawing.Point(924, 14);
             this.btnAddPatients.Name = "btnAddPatients";
             this.btnAddPatients.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.btnAddPatients.Size = new System.Drawing.Size(212, 58);
             this.btnAddPatients.TabIndex = 1;
-            this.btnAddPatients.Text = "Add Visit\r\n";
+            this.btnAddPatients.Text = "Visit WorkFlow";
+            this.btnAddPatients.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.btnAddPatients.Click += new System.EventHandler(this.btnAddPatients_Click);
             // 
             // guna2CustomGradientPanel3
             // 
@@ -356,7 +359,7 @@
             this.dgvAllVisits.RowHeadersVisible = false;
             this.dgvAllVisits.RowHeadersWidth = 120;
             this.dgvAllVisits.RowTemplate.Height = 25;
-            this.dgvAllVisits.Size = new System.Drawing.Size(1081, 232);
+            this.dgvAllVisits.Size = new System.Drawing.Size(1148, 232);
             this.dgvAllVisits.TabIndex = 0;
             this.dgvAllVisits.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.White;
             this.dgvAllVisits.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
@@ -407,7 +410,7 @@
             // frmManageVisits
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.ClientSize = new System.Drawing.Size(1139, 610);
+            this.ClientSize = new System.Drawing.Size(1206, 584);
             this.Controls.Add(this.guna2GradientPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmManageVisits";

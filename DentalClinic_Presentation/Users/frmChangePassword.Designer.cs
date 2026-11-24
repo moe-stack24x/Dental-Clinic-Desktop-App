@@ -78,8 +78,7 @@
             // 
             // guna2ShadowPanel3
             // 
-            this.guna2ShadowPanel3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.guna2ShadowPanel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2ShadowPanel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2ShadowPanel3.Controls.Add(this.txtCurrentPassword);
@@ -262,9 +261,7 @@
             // 
             // guna2ShadowPanel2
             // 
-            this.guna2ShadowPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ShadowPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2ShadowPanel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2ShadowPanel2.Controls.Add(this.lblUserName);
             this.guna2ShadowPanel2.Controls.Add(this.lblUserID);
@@ -397,8 +394,7 @@
             // 
             // frmChangePassword
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(693, 463);
             this.Controls.Add(this.guna2GradientPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;

@@ -63,7 +63,7 @@ namespace DentalClinic_Business
             int TreatmentTypeID = -1;
 
             bool IsFound =
-                clsPerformedTreatmentData.GetPerformedTreatmentInfoByID(
+                clsPerformedTreatmentData.GetPerformedTreatmentById(
                     PerformedTreatmentID,
                     ref PerformedTreatmentDateTime,
                     ref VisitID,
@@ -85,7 +85,7 @@ namespace DentalClinic_Business
         private bool _AddNewPerformedTreatment()
         {
             this.PerformedTreatmentID =
-                clsPerformedTreatmentData.AddNewPerformedTreatment(
+                clsPerformedTreatmentData.AddPerformedTreatment(
                     this.PerformedTreatmentDateTime,
                     this.VisitID,
                     this.TreatmentTypeID);

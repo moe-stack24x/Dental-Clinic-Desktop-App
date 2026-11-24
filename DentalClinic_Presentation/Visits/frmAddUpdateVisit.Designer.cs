@@ -43,30 +43,30 @@
             this.guna2HtmlLabel10 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2ShadowPanel2 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.txtClinicalNotes = new Guna.UI2.WinForms.Guna2TextBox();
             this.btnSave = new Guna.UI2.WinForms.Guna2Button();
+            this.btnClose = new Guna.UI2.WinForms.Guna2Button();
+            this.txtPatientComplaint = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2ShadowPanel1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.lblVisitID = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblTitle = new System.Windows.Forms.Label();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
-            this.txtClinicalNotes = new Guna.UI2.WinForms.Guna2TextBox();
-            this.btnClose = new Guna.UI2.WinForms.Guna2Button();
-            this.txtPatientComplaint = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2GradientPanel1.SuspendLayout();
             this.guna2ShadowPanel3.SuspendLayout();
             this.guna2ShadowPanel2.SuspendLayout();
             this.guna2ShadowPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2GradientPanel1
             // 
             this.guna2GradientPanel1.BackColor = System.Drawing.Color.White;
-            this.guna2GradientPanel1.BorderColor = System.Drawing.Color.White;
-            this.guna2GradientPanel1.BorderRadius = 12;
+            this.guna2GradientPanel1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.guna2GradientPanel1.BorderRadius = 5;
             this.guna2GradientPanel1.BorderThickness = 4;
             this.guna2GradientPanel1.Controls.Add(this.guna2ShadowPanel3);
             this.guna2GradientPanel1.Controls.Add(this.guna2ShadowPanel2);
@@ -280,98 +280,6 @@
             this.guna2HtmlLabel1.TabIndex = 14;
             this.guna2HtmlLabel1.Text = "Clinical Notes:";
             // 
-            // btnSave
-            // 
-            this.btnSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSave.BackColor = System.Drawing.Color.White;
-            this.btnSave.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnSave.BorderRadius = 15;
-            this.btnSave.BorderThickness = 3;
-            this.btnSave.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnSave.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnSave.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnSave.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnSave.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnSave.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
-            this.btnSave.ForeColor = System.Drawing.Color.White;
-            this.btnSave.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.btnSave.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnSave.Location = new System.Drawing.Point(500, 363);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btnSave.Size = new System.Drawing.Size(135, 52);
-            this.btnSave.TabIndex = 9;
-            this.btnSave.Text = "Add Visit";
-            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
-            // 
-            // guna2HtmlLabel7
-            // 
-            this.guna2HtmlLabel7.AutoSize = false;
-            this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel7.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel7.Location = new System.Drawing.Point(31, 63);
-            this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
-            this.guna2HtmlLabel7.Size = new System.Drawing.Size(177, 47);
-            this.guna2HtmlLabel7.TabIndex = 9;
-            this.guna2HtmlLabel7.Text = "patient Complaint:";
-            // 
-            // guna2ShadowPanel1
-            // 
-            this.guna2ShadowPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2ShadowPanel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ShadowPanel1.Controls.Add(this.guna2PictureBox1);
-            this.guna2ShadowPanel1.Controls.Add(this.lblVisitID);
-            this.guna2ShadowPanel1.Controls.Add(this.guna2HtmlLabel2);
-            this.guna2ShadowPanel1.Controls.Add(this.lblTitle);
-            this.guna2ShadowPanel1.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel1.Location = new System.Drawing.Point(25, 14);
-            this.guna2ShadowPanel1.Name = "guna2ShadowPanel1";
-            this.guna2ShadowPanel1.Radius = 12;
-            this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel1.ShadowShift = 4;
-            this.guna2ShadowPanel1.Size = new System.Drawing.Size(1040, 109);
-            this.guna2ShadowPanel1.TabIndex = 0;
-            // 
-            // lblVisitID
-            // 
-            this.lblVisitID.AutoSize = false;
-            this.lblVisitID.BackColor = System.Drawing.Color.Transparent;
-            this.lblVisitID.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblVisitID.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblVisitID.Location = new System.Drawing.Point(815, 16);
-            this.lblVisitID.Name = "lblVisitID";
-            this.lblVisitID.Size = new System.Drawing.Size(173, 36);
-            this.lblVisitID.TabIndex = 16;
-            this.lblVisitID.Text = "??";
-            // 
-            // guna2HtmlLabel2
-            // 
-            this.guna2HtmlLabel2.AutoSize = false;
-            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(724, 16);
-            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(173, 45);
-            this.guna2HtmlLabel2.TabIndex = 16;
-            this.guna2HtmlLabel2.Text = "Visit ID:";
-            // 
-            // lblTitle
-            // 
-            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblTitle.Location = new System.Drawing.Point(106, 25);
-            this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(341, 45);
-            this.lblTitle.TabIndex = 0;
-            this.lblTitle.Text = "Add Visit";
-            // 
-            // errorProvider1
-            // 
-            this.errorProvider1.ContainerControl = this;
-            // 
             // txtClinicalNotes
             // 
             this.txtClinicalNotes.BorderColor = System.Drawing.Color.Gray;
@@ -396,6 +304,30 @@
             this.txtClinicalNotes.Size = new System.Drawing.Size(447, 229);
             this.txtClinicalNotes.TabIndex = 13;
             this.txtClinicalNotes.Validating += new System.ComponentModel.CancelEventHandler(this.ValidateEmptyTextBox);
+            // 
+            // btnSave
+            // 
+            this.btnSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSave.BackColor = System.Drawing.Color.White;
+            this.btnSave.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnSave.BorderRadius = 15;
+            this.btnSave.BorderThickness = 3;
+            this.btnSave.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnSave.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnSave.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnSave.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnSave.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnSave.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
+            this.btnSave.ForeColor = System.Drawing.Color.White;
+            this.btnSave.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.btnSave.ImageSize = new System.Drawing.Size(30, 30);
+            this.btnSave.Location = new System.Drawing.Point(500, 363);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btnSave.Size = new System.Drawing.Size(135, 52);
+            this.btnSave.TabIndex = 9;
+            this.btnSave.Text = "Add Visit";
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // btnClose
             // 
@@ -448,6 +380,36 @@
             this.txtPatientComplaint.TabIndex = 12;
             this.txtPatientComplaint.Validating += new System.ComponentModel.CancelEventHandler(this.ValidateEmptyTextBox);
             // 
+            // guna2HtmlLabel7
+            // 
+            this.guna2HtmlLabel7.AutoSize = false;
+            this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel7.ForeColor = System.Drawing.Color.Black;
+            this.guna2HtmlLabel7.Location = new System.Drawing.Point(31, 63);
+            this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
+            this.guna2HtmlLabel7.Size = new System.Drawing.Size(177, 47);
+            this.guna2HtmlLabel7.TabIndex = 9;
+            this.guna2HtmlLabel7.Text = "patient Complaint:";
+            // 
+            // guna2ShadowPanel1
+            // 
+            this.guna2ShadowPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ShadowPanel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ShadowPanel1.Controls.Add(this.guna2PictureBox1);
+            this.guna2ShadowPanel1.Controls.Add(this.lblVisitID);
+            this.guna2ShadowPanel1.Controls.Add(this.guna2HtmlLabel2);
+            this.guna2ShadowPanel1.Controls.Add(this.lblTitle);
+            this.guna2ShadowPanel1.FillColor = System.Drawing.Color.White;
+            this.guna2ShadowPanel1.Location = new System.Drawing.Point(25, 14);
+            this.guna2ShadowPanel1.Name = "guna2ShadowPanel1";
+            this.guna2ShadowPanel1.Radius = 12;
+            this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.White;
+            this.guna2ShadowPanel1.ShadowShift = 4;
+            this.guna2ShadowPanel1.Size = new System.Drawing.Size(1040, 109);
+            this.guna2ShadowPanel1.TabIndex = 0;
+            // 
             // guna2PictureBox1
             // 
             this.guna2PictureBox1.Image = global::DentalClinic_Presentation.Properties.Resources.medical_history__3_2;
@@ -458,6 +420,44 @@
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox1.TabIndex = 17;
             this.guna2PictureBox1.TabStop = false;
+            // 
+            // lblVisitID
+            // 
+            this.lblVisitID.AutoSize = false;
+            this.lblVisitID.BackColor = System.Drawing.Color.Transparent;
+            this.lblVisitID.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblVisitID.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblVisitID.Location = new System.Drawing.Point(815, 16);
+            this.lblVisitID.Name = "lblVisitID";
+            this.lblVisitID.Size = new System.Drawing.Size(173, 36);
+            this.lblVisitID.TabIndex = 16;
+            this.lblVisitID.Text = "??";
+            // 
+            // guna2HtmlLabel2
+            // 
+            this.guna2HtmlLabel2.AutoSize = false;
+            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.Black;
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(724, 16);
+            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(173, 45);
+            this.guna2HtmlLabel2.TabIndex = 16;
+            this.guna2HtmlLabel2.Text = "Visit ID:";
+            // 
+            // lblTitle
+            // 
+            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblTitle.Location = new System.Drawing.Point(106, 25);
+            this.lblTitle.Name = "lblTitle";
+            this.lblTitle.Size = new System.Drawing.Size(341, 45);
+            this.lblTitle.TabIndex = 0;
+            this.lblTitle.Text = "Add Visit";
+            // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
             // 
             // frmAddUpdateVisit
             // 
@@ -472,8 +472,8 @@
             this.guna2ShadowPanel3.ResumeLayout(false);
             this.guna2ShadowPanel2.ResumeLayout(false);
             this.guna2ShadowPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
 
         }

@@ -20,6 +20,19 @@ namespace DentalClinic_Presentation.Login
         }
 
 
+        private void frmLogin_Load(object sender, EventArgs e)
+        {
+            string UserName = "", Password = "";
+
+            if (clsGlobal.GetStoredCredential(ref UserName, ref Password))
+            {
+                txtUserName.Text = UserName;
+                txtPassword.Text = Password;
+                chkRememberMe.Checked = true;
+            }
+            else
+                chkRememberMe.Checked = false;
+        }
         private void btnsignin_Click(object sender, EventArgs e)
         {
 
@@ -65,21 +78,7 @@ namespace DentalClinic_Presentation.Login
 
         }
 
-
-
-        private void frmLogin_Load(object sender, EventArgs e)
-        {
-            string UserName = "", Password = "";
-
-            if (clsGlobal.GetStoredCredential(ref UserName, ref Password))
-            {
-                txtUserName.Text = UserName;
-                txtPassword.Text = Password;
-                chkRememberMe.Checked = true;
-            }
-            else
-                chkRememberMe.Checked = false;
-        }
+     
         private void guna2Button1_Click(object sender, EventArgs e)
         {
             this.Close();

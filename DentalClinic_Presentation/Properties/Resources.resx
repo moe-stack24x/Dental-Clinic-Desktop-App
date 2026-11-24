@@ -121,8 +121,11 @@
   <data name="doctor (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\doctor (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="application_list1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\application_list1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="doctor (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\doctor (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appointment (19)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appointment (19).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="invoice" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\invoice.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -145,20 +148,38 @@
   <data name="refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\refresh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="id (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\id (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="treatment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\treatment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appointment (18)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appointment (18).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appointment (16)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appointment (16).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="medi2-removebg-preview (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\medi2-removebg-preview (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="doctor (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\doctor (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="id (1)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\id (1)2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="id (1)3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\id (1)3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="info (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\info (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="patient (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\patient (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="patient_boy (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\patient_boy (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1793964984308-removebg-preview (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1793964984308-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sort_by_email" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sort_by_email.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -166,17 +187,23 @@
   <data name="id (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\id (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="customer" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\customer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="clipboard (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clipboard (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="logout" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="password (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\password (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="settings1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\settings1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Female 512" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Female 512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="appointment (14)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appointment (14).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clipboard1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clipboard1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appointment (17)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appointment (17).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="medications" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\medications.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -184,8 +211,14 @@
   <data name="logout-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logout-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="medical_history" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medical_history.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="user (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="id (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\id (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="1794063094285-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1794063094285-2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -198,6 +231,12 @@
   </data>
   <data name="person_man2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\person_man2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="medical_history (3)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medical_history (3)2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="multiple_users (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\multiple_users (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="person_man1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\person_man1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -214,20 +253,26 @@
   <data name="appointment (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\appointment (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="appointment (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\appointment (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="clipboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clipboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appointment (13)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appointment (13).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="phone" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\phone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Screenshot_20261107_175810_Gallery-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Screenshot_20261107_175810_Gallery-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="exam1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exam1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="appointment (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\appointment (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="appointment (10)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\appointment (10).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="invoice (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\invoice (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="medical_history (3)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\medical_history (3)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -238,6 +283,9 @@
   <data name="gear (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gear (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="settings (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settings (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="password" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\password.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -247,17 +295,26 @@
   <data name="appointment" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\appointment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="gear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="application_list1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\application_list1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="person_boy (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\person_boy (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="appointment (11)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\appointment (11).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="treatment (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\treatment (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="doctor (7)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\doctor (7).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="appointment (5)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\appointment (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="payment_against_delivery1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\payment_against_delivery1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="application_list" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\application_list.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -265,26 +322,38 @@
   <data name="medical_history (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\medical_history (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="images-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="medical_history (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\medical_history (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appointment (15)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appointment (15).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="payment_against_delivery (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\payment_against_delivery (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="add" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="appointment (8)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\appointment (8).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="clipboard (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clipboard (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1793964984308" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1793964984308.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appointment (7)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appointment (7)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="user" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dentistry (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dentistry (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="workflow-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\workflow-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="sort_by_email (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sort_by_email (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="patient" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\patient.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="exam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exam.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="diskette" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\diskette.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -298,17 +367,20 @@
   <data name="patient (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\patient (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="id (1)3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\id (1)3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="medi-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medi-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="stethoscope" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\stethoscope.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="online_payment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\online_payment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="1793964984308-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1793964984308-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="1793964984308-removebg-preview (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1793964984308-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="users (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\users (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="appointment (9)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\appointment (9).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -319,20 +391,23 @@
   <data name="appointment (4)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\appointment (4)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="add (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\add (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="patient" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\patient.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appointment (5)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appointment (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Male 512" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Male 512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="gear" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\gear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="appointment (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appointment (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="users (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\users (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="medical_history" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\medical_history.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="invoice (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\invoice (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="user (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -343,26 +418,38 @@
   <data name="visits2-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\visits2-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="appointment (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appointment (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="users (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\users (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="close" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="tuition" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tuition.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="medi-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\medi-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="1793964984308-removebg-preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1793964984308-removebg-preview1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Female 512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Female 512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tuition" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tuition.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="customer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\customer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="multiple_users (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\multiple_users (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dentistry (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dentistry (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="payment_against_delivery (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\payment_against_delivery (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="person_boy (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\person_boy (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="1793964984308" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1793964984308.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="clipboard (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clipboard (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="person_boy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\person_boy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -379,41 +466,50 @@
   <data name="person_man" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\person_man.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Screenshot_20261107_175810_Gallery-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot_20261107_175810_Gallery-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="patient_room" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\patient_room.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="delete_column" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\delete_column.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="appointment (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\appointment (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="logout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="exam" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\exam.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="multiple_users" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\multiple_users.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="doctor (3)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\doctor (3)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="dental_drill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dental_drill.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="AddPerson 32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\AddPerson 32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="payment_against_delivery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\payment_against_delivery.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="medical_history (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\medical_history (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="appointment (7)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\appointment (7)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="appointment (12)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appointment (12).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="exam1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\exam1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="workflow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\workflow.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="medical_history (3)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\medical_history (3)2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="exam (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exam (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appointment (8)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appointment (8).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Save 32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Save 32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="exam (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\exam (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="settings1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settings1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="medications-removebg-preview (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\medications-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -421,10 +517,19 @@
   <data name="gear (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gear (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="doctor (3)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\doctor (3)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="close (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\close (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="patient_boy (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\patient_boy (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="sort_by_email (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sort_by_email (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appointment (20)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appointment (20).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

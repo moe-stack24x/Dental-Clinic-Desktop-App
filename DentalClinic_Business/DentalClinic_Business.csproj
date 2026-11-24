@@ -49,8 +49,13 @@
   <ItemGroup>
     <Compile Include="clsAppointment.cs" />
     <Compile Include="clsDentist.cs" />
+    <Compile Include="clsInvoice.cs" />
+    <Compile Include="clsInvoiceItem.cs" />
     <Compile Include="clsPatient.cs" />
+    <Compile Include="clsPayment.cs" />
     <Compile Include="clsPerformedTreatment.cs" />
+    <Compile Include="clsPrescription.cs" />
+    <Compile Include="clsPrescriptionItems.cs" />
     <Compile Include="clsTreatmentType.cs" />
     <Compile Include="clsUser.cs" />
     <Compile Include="clsVisit.cs" />

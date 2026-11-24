@@ -58,8 +58,8 @@
             // guna2GradientPanel1
             // 
             this.guna2GradientPanel1.BackColor = System.Drawing.Color.White;
-            this.guna2GradientPanel1.BorderColor = System.Drawing.Color.White;
-            this.guna2GradientPanel1.BorderRadius = 12;
+            this.guna2GradientPanel1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.guna2GradientPanel1.BorderRadius = 5;
             this.guna2GradientPanel1.BorderThickness = 4;
             this.guna2GradientPanel1.Controls.Add(this.btnSave);
             this.guna2GradientPanel1.Controls.Add(this.btnClose);
@@ -70,7 +70,7 @@
             this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2GradientPanel1.Location = new System.Drawing.Point(0, 0);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(923, 528);
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(923, 446);
             this.guna2GradientPanel1.TabIndex = 2;
             // 
             // btnSave
@@ -90,7 +90,7 @@
             this.btnSave.Image = global::DentalClinic_Presentation.Properties.Resources.Save_32;
             this.btnSave.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.btnSave.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnSave.Location = new System.Drawing.Point(461, 383);
+            this.btnSave.Location = new System.Drawing.Point(466, 382);
             this.btnSave.Name = "btnSave";
             this.btnSave.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.btnSave.Size = new System.Drawing.Size(135, 52);
@@ -116,7 +116,7 @@
             this.btnClose.Image = global::DentalClinic_Presentation.Properties.Resources.close__1_;
             this.btnClose.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.btnClose.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnClose.Location = new System.Drawing.Point(291, 383);
+            this.btnClose.Location = new System.Drawing.Point(292, 382);
             this.btnClose.Name = "btnClose";
             this.btnClose.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.btnClose.Size = new System.Drawing.Size(135, 52);
@@ -146,7 +146,7 @@
             this.guna2ShadowPanel2.Radius = 12;
             this.guna2ShadowPanel2.ShadowColor = System.Drawing.Color.White;
             this.guna2ShadowPanel2.ShadowShift = 4;
-            this.guna2ShadowPanel2.Size = new System.Drawing.Size(883, 260);
+            this.guna2ShadowPanel2.Size = new System.Drawing.Size(883, 276);
             this.guna2ShadowPanel2.TabIndex = 1;
             // 
             // chkIsActive
@@ -160,7 +160,7 @@
             this.chkIsActive.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkIsActive.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.chkIsActive.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.chkIsActive.Location = new System.Drawing.Point(359, 167);
+            this.chkIsActive.Location = new System.Drawing.Point(359, 183);
             this.chkIsActive.Name = "chkIsActive";
             this.chkIsActive.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.chkIsActive.Size = new System.Drawing.Size(148, 59);
@@ -358,7 +358,7 @@
             // 
             this.guna2CirclePictureBox1.BackColor = System.Drawing.Color.White;
             this.guna2CirclePictureBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.guna2CirclePictureBox1.Image = global::DentalClinic_Presentation.Properties.Resources.doctor;
+            this.guna2CirclePictureBox1.Image = global::DentalClinic_Presentation.Properties.Resources.doctor__3_;
             this.guna2CirclePictureBox1.ImageRotate = 0F;
             this.guna2CirclePictureBox1.Location = new System.Drawing.Point(26, 11);
             this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
@@ -384,9 +384,8 @@
             // 
             // frmAddUpdateDentist
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(923, 528);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.ClientSize = new System.Drawing.Size(923, 446);
             this.Controls.Add(this.guna2GradientPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "frmAddUpdateDentist";

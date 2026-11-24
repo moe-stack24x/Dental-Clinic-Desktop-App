@@ -61,6 +61,7 @@
             this.guna2ShadowPanel2.ShadowShift = 4;
             this.guna2ShadowPanel2.Size = new System.Drawing.Size(686, 113);
             this.guna2ShadowPanel2.TabIndex = 2;
+            this.guna2ShadowPanel2.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2ShadowPanel2_Paint);
             // 
             // lblIsActive
             // 

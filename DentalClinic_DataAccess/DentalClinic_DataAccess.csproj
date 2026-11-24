@@ -50,7 +50,12 @@
     <Compile Include="clsAppointmentData.cs" />
     <Compile Include="clsDataAccessSettings.cs" />
     <Compile Include="clsDentistData.cs" />
+    <Compile Include="clsInvoiceData.cs" />
+    <Compile Include="clsInvoiceItemData.cs" />
     <Compile Include="clsPatientData.cs" />
+    <Compile Include="clsPaymentData.cs" />
+    <Compile Include="clsPerscriptionItemsData.cs" />
+    <Compile Include="clsPrescriptionData.cs" />
     <Compile Include="clsPrformedTreatmentData.cs" />
     <Compile Include="clsTreatmentTypeData.cs" />
     <Compile Include="clsUserData.cs" />

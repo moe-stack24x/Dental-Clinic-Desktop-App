@@ -11,16 +11,16 @@ namespace DentalClinic_Business
     public class clsDentist
     {
       
-            public enum enMode { AddNew = 0, Update = 1 };
-            public enMode Mode = enMode.AddNew;
+         public enum enMode { AddNew = 0, Update = 1 };
+         public enMode Mode = enMode.AddNew;
 
 
-            public int DentistID;
-            public string FirstName;
-            public string LastName;
-            public string Specialization;
-            public string PhoneNumber;
-            public bool IsActive;
+        public int DentistID { set; get; }
+        public string FirstName { set; get; }
+        public string LastName { set; get; }
+        public string Specialization { set; get; }
+        public string PhoneNumber { set; get; }
+        public bool IsActive { set; get; }
         public string FullName 
         { get { return FirstName + " " + LastName; } }
 
