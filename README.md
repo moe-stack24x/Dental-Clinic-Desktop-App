@@ -78,20 +78,20 @@ Design Principles
 🔐 Login Form
 
 <p align="center">
-  <img src="Screenshots/login.png" alt="Login Form" width="800">
+  <img src="https://raw.githubusercontent.com/moe-stack24x/Dental-Clinic-Desktop-App-/main/Screen-Shots/login.png" alt="Login Form" width="850">
 </p>---
 
 🖥️ Main Form
 
 <p align="center">
-  <img src="Screenshots/main.png" alt="Main Form" width="800">
+  <img src="https://raw.githubusercontent.com/moe-stack24x/Dental-Clinic-Desktop-App-/main/Screen-Shots/main.png" alt="Main Form" width="850">
 </p>---
 
 🚀 How to Run
 
 1. Clone the repository:
    
-   git clone https://github.com/moe-stack24x/Dental-Clinic-Desktop-App.git
+   git clone https://github.com/moe-stack24x/Dental-Clinic-Desktop-App-.git
 
 2. Open "DentalClinic.sln" using Visual Studio 2022.
 
