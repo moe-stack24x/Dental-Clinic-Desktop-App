@@ -38,7 +38,7 @@ The system provides an integrated environment for managing patient records, sche
 - Automatically create invoice items when issuing an invoice.
 - Preserve treatment prices in invoice items.
 - Manage patient payments.
-- Automatically calculate total paid and remaining amounts.
+- Calculate total paid and remaining amounts.
 - Automatically update invoice status:
   - Unpaid
   - Partially Paid
@@ -83,7 +83,7 @@ The project also focuses on:
 - Windows Forms
 - SQL Server
 - ADO.NET
-- Visual Studio
+- Visual Studio 2022
 - Guna UI2
 - DataTable
 - DataGridView
@@ -112,13 +112,13 @@ This project helped me gain practical experience in:
 
 🔐 Login Form
 
-"Login Screen" (Screen-Shots/Screenshot%202026-11-24%20230650.png)
+<p align="center">
+  <img src="Screen-Shots/Screenshot%202026-11-24%20230650.png" width="850" alt="Dental Clinic Login Form">
+</p>🖥️ Main Form
 
-🖥️ Main Dashboard
-
-"Main Form" (Screen-Shots/Screenshot%202026-11-24%20230640.png)
-
----
+<p align="center">
+  <img src="Screen-Shots/Screenshot%202026-11-24%20230640.png" width="850" alt="Dental Clinic Main Form">
+</p>---
 
 🚀 How to Run
 
@@ -126,11 +126,11 @@ This project helped me gain practical experience in:
 
 git clone https://github.com/moe-stack24x/Dental-Clinic-Desktop-App.git
 
-2. Open the solution file ("DentalClinic.sln") using Visual Studio.
+2. Open the solution file ("DentalClinic.sln") using Visual Studio 2022.
 
 3. Configure the SQL Server connection string in the application settings.
 
-4. Create and configure the database using the SQL database script, if provided.
+4. Create and configure the database using the provided SQL database script, if included in the repository.
 
 5. Build and run the project.
 
