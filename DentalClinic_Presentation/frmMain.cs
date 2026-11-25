@@ -5,6 +5,7 @@ using DentalClinic_Presentation.Login;
 using DentalClinic_Presentation.Patients;
 using DentalClinic_Presentation.Prescriptions;
 using DentalClinic_Presentation.Settings;
+using DentalClinic_Presentation.TreatmentTypes;
 using DentalClinic_Presentation.Users;
 using DentalClinic_Presentation.Visits;
 using System;
@@ -85,6 +86,12 @@ namespace DentalClinic_Presentation
         {
             frmUserInfo frm = new frmUserInfo(clsGlobal.CurrentUser.UserID);
            frm.ShowDialog();
+        }
+
+        private void btnTreatmentTypes_Click(object sender, EventArgs e)
+        {
+            frmManageTreatmentTypes frm = new frmManageTreatmentTypes();
+            LoadForm(frm);
         }
     }
 }

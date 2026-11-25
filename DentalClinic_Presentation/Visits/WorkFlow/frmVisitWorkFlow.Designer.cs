@@ -117,7 +117,7 @@
             this.tbPerscriptions.Location = new System.Drawing.Point(4, 44);
             this.tbPerscriptions.Name = "tbPerscriptions";
             this.tbPerscriptions.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.tbPerscriptions.Size = new System.Drawing.Size(1210, 574);
+            this.tbPerscriptions.Size = new System.Drawing.Size(1198, 574);
             this.tbPerscriptions.TabIndex = 1;
             this.tbPerscriptions.Text = "Perscriptions";
             // 
@@ -127,7 +127,7 @@
             this.tbInvoices.ForeColor = System.Drawing.Color.White;
             this.tbInvoices.Location = new System.Drawing.Point(4, 44);
             this.tbInvoices.Name = "tbInvoices";
-            this.tbInvoices.Size = new System.Drawing.Size(1210, 574);
+            this.tbInvoices.Size = new System.Drawing.Size(1198, 574);
             this.tbInvoices.TabIndex = 2;
             this.tbInvoices.Text = "Invoices";
             // 

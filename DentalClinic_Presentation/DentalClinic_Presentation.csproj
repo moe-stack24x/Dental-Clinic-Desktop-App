@@ -211,6 +211,12 @@
     <Compile Include="Settings\frmsettings.Designer.cs">
       <DependentUpon>frmsettings.cs</DependentUpon>
     </Compile>
+    <Compile Include="TreatmentTypes\frmManageTreatmentTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TreatmentTypes\frmManageTreatmentTypes.Designer.cs">
+      <DependentUpon>frmManageTreatmentTypes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Users\ctrlUserCard.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -343,6 +349,9 @@
     </Compile>
     <EmbeddedResource Include="Settings\frmsettings.resx">
       <DependentUpon>frmsettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TreatmentTypes\frmManageTreatmentTypes.resx">
+      <DependentUpon>frmManageTreatmentTypes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Users\ctrlUserCard.resx">
       <DependentUpon>ctrlUserCard.cs</DependentUpon>
@@ -804,6 +813,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\appointment %2820%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\treatment %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\treatment %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\treatment %283%291.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

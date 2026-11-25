@@ -7,7 +7,8 @@ namespace DentalClinic_DataAccess
 {
     public class clsTreatmentTypeData
     {
-        public static bool GetTreatmentTypeInfoByID( int TreatmentTypeID, ref string TreatmentTypeName, ref string TreatmentTypeDescription, ref decimal DefaultPrice)
+        public static bool GetTreatmentTypeInfoByID( int TreatmentTypeID, ref string TreatmentTypeName,
+                                                      ref string TreatmentTypeDescription, ref decimal DefaultPrice)
         {
             bool IsFound = false;
 

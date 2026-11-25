@@ -129,6 +129,7 @@ namespace DentalClinic_Presentation.Appointments
 
             //we take just the date without time.
             _Apppointment.AppointmentDate = dtpAppointmentDate.Value.Date;
+            //to calculate the time we take just the time without date.
             _Apppointment.AppointmentStartTime = (TimeSpan)dtpstartTime.Value.TimeOfDay;
             _Apppointment.AppointmentEndTime = (TimeSpan)dtpEndTime.Value.TimeOfDay;
 
