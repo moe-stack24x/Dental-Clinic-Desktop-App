@@ -73,15 +73,26 @@ Design Principles
 
 ---
 
+🗄️ Database
+
+The project uses Microsoft SQL Server with a database named "DentalClinicDB".
+
+The database scripts are available in the "Database" folder:
+
+- "DentalClinicDB.sql"
+- "DentalClinicDB_Full.sql"
+
+These scripts provide the database creation script and the database objects and data.
+
+---
+
 📸 Screenshots
 
 🔐 Login Form
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/moe-stack24x/Dental-Clinic-Desktop-App-/main/Screen-Shots/login.png" alt="Login Form" width="850">
-</p>---
-
-🖥️ Main Form
+</p>🖥️ Main Form
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/moe-stack24x/Dental-Clinic-Desktop-App-/main/Screen-Shots/main.png" alt="Main Form" width="850">
@@ -95,11 +106,13 @@ Design Principles
 
 2. Open "DentalClinic.sln" using Visual Studio 2022.
 
-3. Configure the SQL Server connection string.
+3. Open SQL Server Management Studio (SSMS).
 
-4. Create and configure the database.
+4. Create the database using the SQL scripts available in the "Database" folder.
 
-5. Build and run the project.
+5. Configure the SQL Server connection string in the project according to your SQL Server instance.
+
+6. Build and run the project.
 
 ---
 
